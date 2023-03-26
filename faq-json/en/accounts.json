@@ -4,7 +4,7 @@
         {
             "id": "cloudSave",
             "question": "Why can't I save data to the cloud?",
-            "answer": "・Geometry dash may have trouble saving your data if you are using a lot of space in your editor levels; We suggest you to erase some of these, preferably these that have a lot of objects as they consume space the most. <hr>・Error -5 means your savefiles are outdated, and some online services, including saving, will be blocked. To fix this, go to your <i>Account</i>, click <i>More</i>, then select <i>Refresh login</i> and try logging in again. This won't cause any data loss. <hr>・If refreshing your login gives an error, try restoring your password using <a href='http://www.boomlings.com/database/accounts/lostpassword.php'>the Boomlings page.</a>"
+            "answer": "<ul> <li>Geometry dash may have trouble saving your data if you are using a lot of space in your editor levels; We suggest you to erase some of these, preferably these that have a lot of objects as they consume space the most.</li> <hr> <li>Error -5 means your savefiles are outdated, and some online services, including saving, will be blocked. To fix this, go to your <i>Account</i>, click <i>More</i>, then select <i>Refresh login</i> and try logging in again. This won't cause any data loss. </li> <hr> <li>If refreshing your login gives an error, try restoring your password using <a href='http://www.boomlings.com/database/accounts/lostpassword.php'>the Boomlings page.</a> </li> </ul>"
         },
         {
             "id": "errorLogin",
