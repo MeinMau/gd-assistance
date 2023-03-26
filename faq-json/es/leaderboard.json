@@ -1,0 +1,43 @@
+{
+    "title": "Leaderboard: FAQ",
+    "description": "Si necesitas asistencia directa con las leaderboards, puedes consultarlo en <a href='https://discord.gg/j8MQ5MgVyN'>el Servidor de Discord dedicado</a>",
+    "exam": [
+        {
+            "emote":"exMark.png",
+            "id": "leaderboardGuidelines",
+            "question": "¿Me banearan si uso algún hack?",
+            "answer":"Nunca serás baneado del leaderboard solo por usar un hack. Se permite usar hacks siempre y cuando no te den una ventaja injusta al completar niveles rateados. <hr> Esto incluye hacks que te pueden dar una ventaja visual, o hacks que influyen en la dificultad del nivel, como noclipping o speed hacks. Los hacks de creador e icono están permitidos, ya que no te dan ninguna ventaja perjudicial sobre otros jugadores. Hay un <a href='https://docs.google.com/document/d/1H1P0WSx6Shu6efOD4sdH2gsNGv9HId6C9vj6u_cCFPI/edit?usp=drivesdk.'>documento de google</a> recopilando información mas en detalle sobre que hacks estan permitidos. <hr>Si incumples las pautas, tu ránking global será eliminado de tu perfil, pero tu cuenta no será eliminada."
+        },
+        {
+            "emote":"rankAll.png",
+            "id": "noRank",
+            "question": "¿Por qué no tengo mi ranking global?",
+            "answer": "Solo las cuentas con 500 estrellas o más tienen un ránking global. Ten en cuenta que no lo obtienes al instante al alcanzar 500 estrellas. Si has alcanzado el umbral y no has recibido un ránking después de unos días o si tu ránking de repente es eliminado, probablemente hayas sido baneado de los leaderboards."
+        },
+        {
+            "emote":"rank1000.png",
+            "id":"rankThousand",
+            "question":"¿Por qué tengo un ránking más bajo que algunas personas en los primeros 1000?",
+            "answer":"Esto se debe a que los primeros 1000 están definidos por un leaderboard diferente, donde las personas son agregadas manualmente por los moderadores de la lista. Si no estás aquí, no has sido agregado por ellos."
+        },
+        {
+            "emote":"diamond.png",
+            "id": "noStatsPlayer",
+            "question": "¿Por qué hay un jugador sin estadísticas en el leaderboard?",
+            "answer": "Es un problema visual y no significa que hayas sido hackeado o que tu juego esté dañado. No se conoce con exactitud qué lo está causando, pero es del lado del servidor, así que no tienes de qué preocuparte."
+        },
+
+        {
+            "emote":"orbIcon.png",
+            "id":"copyHack",
+            "question":"Completé un nivel como una copia en el editor. ¿Sería legitimo completar la versión calificada usando trucos?",
+            "answer":"Depende de las circunstancias. Para hacerlo, necesitas una grabación del nivel. Algunos niveles tienen problemas específicos que afectan el completar, como el lag o errores relacionados con la tasa de refresco. Si la versión copiada no altera la dificultad, la comunidad ha aceptado volver a completar los niveles con trucos, incluyendo la decoración que puede afectar la dificultad. <hr> Es recomendable consultar con el equipo de la lista o el equipo del leaderboard antes de hackear un nivel en los servidores por precaución."
+        },
+        {
+            "emote":"hammer.png",
+            "id":"notInLevelLB",
+            "question":"¿Por qué no estoy en el leaderboard del nivel?",
+            "answer":"Las puntuaciones de los jugadores no se cargan automáticamente en el leaderboard del nivel, solo se muestran los jugadores que envían sus puntuaciones. <hr>・Para enviar tu puntuación, abre el leaderboard del nivel, aunque a veces esto puede ser inconsistente y solo se mostrará localmente. Los jugadores baneados del leaderboard no aparecerán en el leaderboard global del nivel. <hr> Para los niveles más difíciles, el leaderboard funciona con un sistema de aprobación, en el cual solo se muestran los jugadores considerados legítimos por los moderadores del leaderboard. "
+        }
+    ]
+}

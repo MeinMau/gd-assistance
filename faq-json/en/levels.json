@@ -1,0 +1,90 @@
+{
+    "title":"Levels: FAQ", 
+    "exam": [
+        {
+            "id": "cantDownloadLevels",
+            "question": "Why can't I download levels?",
+            "answer": "・This happens frequently, often due to Geometry dash servers experiencing downtime or due to a poor internet connection. Usually this situation improves after a while. <hr>・It's also possible for you to be IP banned; this happens when the automoderation detects high traffic from a connection. In this event you can wait it out, as it's usually temporary, or you can switch IPs by VPN, DNS or a different connection."
+        },
+        {
+            "id": "starValue",
+            "question": "How do I get a star value on my level?",
+            "answer": "The developer chooses levels that are deemed \"good enough\" under his eyes. Questions like these are hard to answer, as there is not an objective guideline nor guarantees. <y>RobTop</y> is the only one who can give star value to levels, however in-game <m>moderators</m> can send levels to him to look at."
+        },
+        {
+            "id": "unableUpdate",
+            "question": "Why I can not update my level in the servers?",
+            "answer": "Rated Levels that have an id smaller than 60 millons are locked from updating to avoid harmful alterations, although in-game <m>moderators</m> have the ability to unlock this restriction as long as there's reasoning behind. Also consider that if you do update a level, it's daily, weekly and gauntlet version won't update."
+        },
+        {
+            "id": "levelUnableToSearch",
+            "question": "Why is my level only searchable by ID very shortly after uploading?",
+            "answer": "This due to a server sided glitch. For the time being this has no fix other than reaching <y>RobTop</y>. Contact a game <m>moderator</m> as they might redirect your report to him. "
+        },
+        {
+            "id": "uncompleteLevel",
+            "question": "How do I uncomplete a level?",
+            "answer": "If you recently completed a level and want to undo the completion, try logging out of your account and in again right after. Load your data from the cloud as you might have old progress without the completion. Loading without logging out first won't help as it will just merge the data.<hr>If you want another alternative, there are hacks and tools online that do the job, although their usage is not easy in general."
+        },
+        {
+            "id": "levelIssue",
+            "question": "I found an issue in a level. What do I do?",
+            "answer": "If you have an issue with a specific level, such as refresh rate issues or general level bugs, you must talk to the creator or play a fixed copy. Copying the level to fix the bug or searching up a fixed copy for that refresh rate is often the way to go for correcting this. However, we recommend asking the creator to fix it so it's easier for everyone."
+        },
+        {
+            "id": "levelEmpty",
+            "question": "Why is the online level I downloaded empty upon playing?",
+            "answer": "This most commonly occurs when the level has a lot of objects. If you notice the level is empty, leave it and use the refresh button to attempt a redownload."
+        },
+        {
+            "id": "cantOpenEditor",
+            "question": "Why can't I open my editor level?",
+            "answer": "This is because you placed a huge amount of objects on a small focused spot. There's not a defined number on how many objects there must be to happen, it varies among devices. A solution would be to load your data from the cloud hoping you have an available copy. <hr> There are hacks, known as antikick which allows you to open the level normally, but only to open the editor and solve the clutter of objects, as you need to get rid of the issue as a whole, otherwise you will not be able to play the level."
+        },
+        {
+            "id": "startPosDesync",
+            "question": "Why does the song and the player start delayed when I use a start position in the editor?",
+            "answer": "Playtesting with a start position causes the chunk of the level that is behind to load. If you have too many objects, or if your level is too long you will face a long loading freeze, once it's finished you are far from where you placed your start position, most likely even dead. This has no fix, however there is a way around, press the play test button twice, this will start it and while the screen is frozen it will pause the play testing, allowing it to load without making any progress."
+        },
+        {
+            "id": "selectFilter",
+            "question": "I can't select nor erase any objects in editor. How do I fix it?",
+            "answer": "You might have enabled a delete filter. A lot of people don't realize that this setting is on. Go to the delete section, on the right zone set the filter to <ingame-tag>none</ingame-tag> and it should work again. If this does not work, reinstall the game."
+        },
+        {
+            "id": "levelPurge",
+            "question": "Why were some of my uploaded levels deleted?",
+            "answer": "<y>RobTop</y> occasionally deletes levels that do not meet certain thresholds like downloads, rating, or length to clear room on the servers. The most recent mass-deletion was on August 6th, 2021, the factors that lead to levels in that purge being deleted were announced in a <a href='https://twitter.com/RobTopGames/status/1424976201651789824?s=19'>tweet by RobTop</a>. There are other forms of auto-deletes that can occur, the most notable of these being the one that deletes levels with less than 100 objects. In the future, unlisted levels will be exempt from the level purges. In the near future, there'll be a way to recover purged levels. Until then, you won't be able to get them back."
+        },
+        {
+            "id": "serversDown",
+            "question": "Why can't I upload levels to the server?",
+            "answer": "This most commonly occurs when the Geometry Dash server is experiencing downtime. However there is a word filter which prevents you from uploading levels with a specific name or description.<hr> If you upload a level, then remove it from the server then you won't be able to re-upload it unless you copy it and reverify it. <hr> Also consider that if you upload too many levels you will be timed out for a while, which causes this issue. If you have outdated account credentials, many online services including uploading levels will be blocked. Go to <ingame-tag class='gold-font'>Account</ingame-tag> then click <ingame-tag class='gold-font'>More</ingame-tag> and then <ingame-tag class='gold-font'>Refresh Login</ingame-tag> and try logging in. Consider that refreshing login doesn't results in data loss. If refresh login gives an error, try restoring your password using <a href='http://www.boomlings.com/database/accounts/lostpassword.php'>the boomlings page.</a>"
+        },
+        {
+            "id": "magicTab",
+            "question":"What are the magic tab requirements?",
+            "answer":"Levels who are sent to <y>RobTop</y> are displayed here. Former requirements involved meeting a criteria that is kept secret by <y>RobTop</y>, however, you can still find levels in the magic tab that meet these requirements if you select <ingame-tag>NA</ingame-tag> difficulty while searching under this category. "
+        },
+        {
+            "id":"cantDelete",
+            "question": "Why can't I delete my levels from the servers?",
+            "answer":"Rated levels and levels that have more than 1,000 downloads cannot be deleted by the creator to avoid abuse if the account is stolen. You can contact an Elder moderator so they delete the level for you."
+        },
+        {
+            "id":"unratedStars",
+            "question":"Do I win stars if I complete a level before it gets rated? Do I lose stars if I complete a level that gets unrated?",
+            "answer":"Yes, but your stats won't be updated in the same second. It will update if you refresh the level, or if you reload your data from the cloud, as this causes the game to look through the list of your completed levels and add stars for those who are rated."
+        },
+        {
+            "id":"noWeeklyDaily",
+            "question":"Why is there no Daily/Weekly?",
+            "answer":"RobTop is yet to select a level for either of those."
+        },
+        {
+            "id":"physicsIssue",
+            "question":"Sometimes I move through a moving platform and I get aggressively launched to the top. What can I do?",
+            "answer":"Change the physics by manipulating the frames. This is a physics miscalculation; Changing your Vertical Sync settings could help. If you have this enabled turn it off, do the opposite if the case is different. <hr> Manipulating your frames via hacks might also help, as different frame rates alter the physics, therefore changing the possibility of this issue occuring."
+        }
+    ]
+}

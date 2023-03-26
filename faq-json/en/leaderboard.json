@@ -1,0 +1,36 @@
+{
+    "title": "Leaderboard: FAQ",
+    "description": "If you need direct assistance regarding the leaderboard, use their <a href='https://discord.gg/j8MQ5MgVyN'>dedicated Discord server</a>",
+    "exam": [
+        {
+            "id": "leaderboardGuidelines",
+            "question": "Would I get banned for using X hack?",
+            "answer": "You will never be leaderboard banned for just using a hack. You are allowed to use hacks as long as they don't give you an unfair advantage when completing rated levels. <hr> This includes hacks that can give you a visual advantage, such as a hitbox viewer or hacks that remove decoration that influence the difficulty, and hacks that make the gameplay easier, such as noclipping or speed hacks. Creator and icon hacks are allowed, seeing how they don't give you any sort of harmful advantage over other players. This is a more in-depth set of guidelines when it comes to usage of tools: https://docs.google.com/document/d/1H1P0WSx6Shu6efOD4sdH2gsNGv9HId6C9vj6u_cCFPI/edit?usp=drivesdk. <hr> If you break the guidelines, your global rank will be deleted from your profile, but your account won't be removed."
+        },
+        {
+            "id": "noRank",
+            "question": "Why don't I have a global rank on my profile?",
+            "answer": "Only accounts with 500 stars or more have a global rank. Keep in mind you don't get it instantly upon reaching 500 stars. If you have reached the threshold and have not received a rank after a few days, or if your rank is suddenly removed, you have probably been banned from the leaderboards. "
+        },
+        {
+            "id":"rankThousand",
+            "question":"Why do I have a lower rank than some people on the top 1000?",
+            "answer":"This is because the top 1000 is defined by a different leaderboard, where people are added manually by list moderators. If you're not here, you haven't been added by them."
+        },
+        {
+            "id": "noStatsPlayer",
+            "question": "Why is there a player with no stats in the leaderboard?",
+            "answer": "It is a visual issue and it doesn't means you've been hacked, or that your game is damaged. It's not well known what is exactly causing it but it's server sided, you don't have to worry about anything."
+        },
+        {
+            "id":"copyHack",
+            "question":"I completed a level as a copy on the editor. Would it be considered legitimate to complete the rated version using cheats?",
+            "answer":"Whether it's okay to replay a level using cheats depends on the situation. You need to have a recording of the level to do this. Some levels have issues like lag or bugs that make them difficult to complete. The community allows replaying levels with cheats if the copied version doesn't change the difficulty. This includes fixing decoration that can get in the way and affect difficulty. <hr>To be safe, it's recommended that you check with the List Team or Leaderboard Team before hacking a level on the servers."
+        },
+        {
+            "id":"notInLevelLB",
+            "question":"Why am I not in the level leaderboard?",
+            "answer":"Player's scores are not automatically uploaded to the level leaderboard. Instead, only the players that submit their scores are displayed.<hr>・You can submit your score by simply opening the level leaderboard, although it is inconsistent at times and might only display you locally. Leaderboard banned players will not be displayed on the global level leaderboard. <hr>For the hardest levels, the leaderboard works on an approval system instead, where only players who are deemed legitimate by the leaderboard moderators are shown."
+        }
+    ]
+}

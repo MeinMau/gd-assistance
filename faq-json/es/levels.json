@@ -1,0 +1,93 @@
+{
+    "title": "Niveles: FAQ",
+    "exam": [
+        {
+            "emote": "download.png",
+            "id": "cantDownloadLevels",
+            "question": "¿Por qué no puedo descargar niveles?",
+            "answer": "Esto puede ocurrir si los servidores están temporalmente deshabilitados o si tu conexión es inestable. También puede ocurrir si se detecta mucho tráfico de una conexión y eres bloqueado del servidor automáticamente. Por lo general, esto es temporal, pero en algunos casos puede ser permanente. <hr> ・También tienes la elección de usar un VPN o un cambio de DNS, ya que el bloqueo se basa en tu ip."
+        },
+        {
+            "emote": "epic.png",
+            "id": "starValue",
+            "question": "¿Cómo consigo un valor de estrellas en mi nivel?",
+            "answer": "El desarrollador elige niveles que, según el, son lo suficientemente buenos para otorgarle algún valor estelar. Esta no es una pregunta fácil de responder, ya que se basa en subjetividad que no se puede medir. Mientras que el desarrollador es el único que puede otorgar valores estelares, los <m>moderadores</m> del juego tienen la función de enviarle niveles que tienen potencial de ser evaluados."
+        },
+        {
+            "id": "unableUpdate",
+            "question": "¿Por qué no puedo actualizar mi nivel en los servidores?",
+            "answer": "Los niveles con valor de estrellas cuyo ID menor a los 60 millones están bloqueados para evitar actualizaciones maliciosas, pero los moderadores pueden desbloquearlos con alguna justificación. Considera también que si actualizas un nivel, la versión daily, weekly o gauntlet no recibirán el contenido nuevo, o cambiado."
+        },
+        {
+            "emote": "na.png",
+            "id": "levelUnableToSearch",
+            "question": " ¿Por qué mi nivel deja de ser visible en el servidor después de subirlo?",
+            "answer": "Es un error del servidor en donde algunos niveles son asignados como no listado después de subirlos. No puedes arreglarlo, contacta con un <m>moderador</m> para que puedan reportar el nivel a <y>RobTop</y>."
+        },
+        {
+            "id": "uncompleteLevel",
+            "question": "¿Cómo deshacerse de un nivel completado?",
+            "answer": "Si lo completaste recientemente puedes salir de tu cuenta y volver a ingresar, acto seguido cargas los datos, puede que tengas un progreso sin el nivel completo. <hr> Si quieres otra alternativa puedes descargar herramientas externas para eliminar esos niveles aunque sus usos no son fáciles en general."
+        },
+        {
+            "id": "levelIssue",
+            "question": "Hay un error en un nivel. ¿Qué hago?",
+            "answer": "Problemas como bugs o problemas de hertz son errores que solo el creador puede resolver. Trata de conseguir contacto con este. Otra alternativa seria copiar el nivel para arreglarlo tú mismo, o buscar una copia en el servidor para completarlo. Aun así recomendamos pedirle al creador que lo arregle para que sea accesible para todos."
+        },
+        {
+            "id": "levelEmpty",
+            "question": "El nivel que descargue esta vacio cuando lo juego.",
+            "answer": "Abandona el nivel y reinicialo. Evita abusar bugs como este para completar niveles."
+        },
+        {
+            "id": "cantOpenEditor",
+            "question": "No consigo abrir el nivel del editor. ¿Qué ocurre?",
+            "answer": "Este error ocurre cuando un nivel tiene muchos objetos en un lugar específico. No hay un número exacto para esto, ya que depende del dispositivo. Puedes probar cargar los datos de la nube o usar herramientas externas como 'antikick' para solucionarlo."
+        },
+        {
+            "id": "startPosDesync",
+            "question": "Cuando uso un startpos en el editor el juego y la canción se atrasan.",
+            "answer": "El retraso al inicio del nivel se debe a la carga de elementos detrás del nivel al usar startpos. No se puede solucionar, pero se puede evitar presionando dos veces rápido el botón de playtest para permitir que el juego cargue sin avanzar."
+        },
+        {
+            "id": "selectFilter",
+            "question": "¿Por qué no puedo seleccionar o eliminar objetos en el editor?",
+            "answer": "Tienes los filtros activados. Elimina el filtro de selección en el menú de pausa del editor, acto seguido desactiva <i>Select Filter</i>. Para quitar filtros de eliminación, ve a la sección \"Delete\" y a la derecha selecciona <i>none</i>."
+        },
+        {
+            "id": "levelPurge",
+            "question": "¿Por qué algunos de mis niveles son eliminados online?",
+            "answer": "Los niveles son eliminados del servidor para liberar espacio y a veces se realiza una purga masiva por orden de RobTop. Si tu nivel fue eliminado en una purga masiva, podrás recuperarlo en el futuro con una herramienta que aún no está disponible."
+        },
+        {
+            "id": "serversDown",
+            "question": "¿Por qué no puedo subir niveles al servidor?",
+            "answer": "En general, si no puedes publicar un nivel, puede ser debido a una palabra prohibida en el nombre o descripción del nivel. Aunque en algunos casos puede deberse al tráfico lento en los servidores. <hr> Si logras subir un nivel al servidor, para luego quitarlo, no vas a poder a volver a subir este nivel a menos que lo copies y lo reverifiques. <hr>・ Actualiza tus credenciales en tu cuenta haciendo <i>Refresh Login</i> en <i>Account</i> > <i>More</i>. No perderás datos. Si hay un error al hacer Refresh Login, recupera tu contraseña en <a href='http://www.boomlings.com/database/accounts/lostpassword.php'>la página de Boomlings.</a>"
+        },
+        {
+            "id": "magicTab",
+            "question": "¿Cuáles son los requerimientos para estar en la sección de \"Magic\"?",
+            "answer": "Los niveles enviados a RobTop se muestran aquí. Antes tenías que cumplir un criterio secreto de RobTop para aparecer, aún puedes encontrar esos niveles en la pestaña mágica si buscas en la categoría NA y seleccionas esa dificultad."
+        },
+        {
+            "id": "cantDelete",
+            "question": "¿Por qué no puedo eliminar mi nivel de los servidores?",
+            "answer": "Los niveles con estrellas y niveles que tienen más de 1.000 descargas no pueden ser eliminados por el creador para evitar situaciones si la cuenta es robada. Puedes contactar a un <m>moderador elder</m> para que elimine el nivel por ti."
+        },
+        {
+            "id": "unratedStars",
+            "question": "¿Consigo estrellas si completo un nivel antes de que tuviera fuera rate? ¿Pierdo estrellas si completé un nivel que ya no tiene rate?",
+            "answer": "Sí, pero tus estadísticas no se actualizarán inmediatamente. Debes actualizar el nivel o recargar tus datos de la nube para que el juego revise la lista de tus niveles completados y te otorgue estrellas por aquellos que califican."
+        },
+        {
+            "id": "noWeeklyDaily",
+            "question": "¿Por qué no hay un \"Weekly\" o \"Daily\"?",
+            "answer": "Aún <y>RobTop</y> no ha designado un nivel para esta categoria, es cuestión de tiempo."
+        },
+        {
+            "id": "physicsIssue",
+            "question": "Suceden movimientos bruscos después de pasar por una plataforma en movimiento, ¿Qué puedo hacer?",
+            "answer": "Cambia la física manipulando los fotogramas. Se trata de un cálculo erróneo de la física; cambiar la configuración de sincronización vertical podría ayudar. Si tienes esto habilitado, desactívalo, haz lo contrario si el caso es diferente. <hr> Cambiar los fotogramas mediante hacks puede ayudar a solucionar el problema, ya que diferentes tasas de fotogramas afectan la física y pueden evitar que ocurra este problema."
+        }
+    ]
+}

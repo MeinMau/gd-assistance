@@ -1,0 +1,71 @@
+{
+    "title": "Moderadores: FAQ",
+    "exam": [
+        {
+            "emote":"normalMod.png",
+            "id": "moderator",
+            "question": " ¿Qué es un Moderador?",
+            "answer": "Un moderador es alguien que representa a Robtop y su tarea es enviar niveles y ser un modelo positivo para la comunidad. Se pueden reconocer por el icono que aparece junto a su nombre. El rol de moderador solo puede ser otorgado por Robtop."
+        },
+        {
+            "emote":"elderMod.png",
+            "id": "elderModerator",
+            "question":  "¿Qué es un Moderador Elder?",
+            "answer": "Los moderadores elder tienen la tarea de moderar los comentarios del juego, aprobar artistas de Newgrounds y realizar las mismas funciones que los moderadores regulares. Se les puede identificar por el icono que aparece junto a su nombre."
+        },
+        {
+            "emote":"pay.png",
+            "id": "areModsPaid",
+            "question": "¿Los moderadores son pagados?",
+            "answer": "No. La tarea de <m>moderadores</m> son voluntarias, ningún <m>moderador</m> tiene permitido aceptar pagos para enviar niveles.</u>"
+        },
+        {
+            "emote":"contact.png",
+            "id": "contactMods",
+            "question": "¿Cómo contacto a un moderador de GD?",
+            "answer": "Esto depende de cada moderador, ten en cuenta que algunos no tienen los mensajes directos abiertos. La mayoría usa Discord, pero no todos aceptan sugerencias de niveles por ese medio. Antes de enviar un nivel, verifica si tienen un servidor dedicado o pregúntales directamente. Y siempre recuerda mantener el respeto."
+        },
+        {
+            "emote":"robtop.png",
+            "id": "robTopContact",
+            "question": "¿Los moderadores pueden contactar a Robtop?",
+            "answer": "Si. Los <m>moderadores</m> tienen contacto con <y>Robtop</y>, si algún problema ocurre, Rob puede ser informado mediante un <m>moderador</m>"
+        },
+        {
+            "emote":"bigStar.png",
+            "id":"modCandidate",
+            "question":"¿Cómo uno se vuelve moderador?",
+            "answer":"Para ser moderador en Geometry Dash, RobTop debe otorgarte el cargo. Si contribuyes positivamente a la comunidad, los moderadores pueden notar tus acciones y hacer que RobTop también lo haga. No hay pasos específicos para conseguirlo, pero en general <b>se buscan candidatos que cumplan con estas características:</b><hr> - <c>Tener actitud positiva.</c> Si eres conocido por ser tóxico, probablemente no lo conseguiras. <hr>- <c>Ser activo en la comunidad.</c> Es necesario tener presencia consistente dentro de la comunidad. <hr>- <c>Ser alguien de confianza.</c> Si no tienes una conexión con el equipo de moderadores, no se puede garantizar que seas de confianza. Como moderador, eres un representante de RobTop, por lo que es importante asegurarse de que no uses tu posición para fines inadecuados. <hr> - <c>Ser capaz de juzgar un nivel.</c> Necesitamos saber que puedas entender la diferencia entre un nivel bueno y un nivel malo."
+        },
+        {
+            "emote":"chat.png",
+            "id": "modChat",
+            "question": "¿Qué es el Mod Chat?",
+            "answer": "En español, el chat de moderadores es un servidor de discord, que como su nombre lo sugiere, es exclusivo de los modernos del juego. Es un servidor estrictamente privado que le ofrece a los moderadores hablar de asuntos que les incumben."
+        },
+        {
+            "emote":"lockGray.png",
+            "id": "modLeakClause",
+            "question": "¿Por qué los moderadores no tienen permiso de exhibir el mod chat?",
+            "answer": "El propósito del mod chat es otorgarle a los moderadores un lugar seguro para discutir cosas, muchas que tienen que ver con ellos mismos, y otras que simplemente no le incumbe al público mayor."
+        },
+        {
+            "emote":"trending.png",
+            "id": "modStandards",
+            "question": " ¿Cuáles son los estándares de los moderadores a la hora de evaluar niveles?",
+            "answer": "Cada moderador tiene sus propios estándares subjetivos, pero todos deben seguir ciertas reglas al evaluar niveles.<hr> ・Los niveles con elementos de edición robados o contenido inapropiado no pueden ser enviados a RobTop. Otros factores, como la duración del nivel o si la canción se puede descargar en el juego, pueden influir en las decisiones de los moderadores."
+        },
+        {
+            "emote":"epic.png",
+            "id": "canElderRate",
+            "question": "¿Pueden los moderadores elder asignar valores estelares a los niveles?",
+            "answer": "No. El único que tiene esta posibilidad es <y>Robtop</y>. "
+        },
+        {
+            "emote":"check.png",
+            "id": "reqButton",
+            "question":"¿Para qué sirve el botón de \"Req\" dentro de los ajustes?",
+            "answer":"Este botón garantiza el acceso a nuevos <m>moderadores</m> la función de evaluar niveles."
+        }
+    ]
+}

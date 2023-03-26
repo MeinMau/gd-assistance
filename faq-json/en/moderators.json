@@ -1,0 +1,60 @@
+{
+    "title": "Moderators: FAQ",
+    "exam": [
+        {
+            "id": "moderator",
+            "question": "What is a Moderator?",
+            "answer": "A moderator is someone who represents Robtop and their task is to send levels and be a positive role model for the community. They can be recognized by the icon next to their name. The role of moderator can be only granted by Robtop."
+        },
+        {
+            "id": "elderModerator",
+            "question": "What is an Elder Moderator?",
+            "answer": "Elder moderators are tasked with moderating game comments, approving Newgrounds artists, and performing the same functions as regular moderators. They can be identified by the icon next to their name."
+        },
+        {
+            "id": "areModsPaid",
+            "question": "Are Moderators paid?",
+            "answer": "No. Their positions are voluntary, moderators are not allowed to accept payment for sending levels."
+        },
+        {
+            "id": "contactMods",
+            "question": " How can I contact a GD Moderator?",
+            "answer": "This is different for every GD Moderator. Most Moderators nowadays are active on Discord and are to be found in here in the GD Server. Not all Moderators like to take level requests via DM, so try to figure out whether they have a server or a form if you are contacting them for this reason. Most Moderators also check their in-game messages occasionally. <b>Remember to stay respectful!</b> "
+        },
+        {
+            "id": "robTopContact",
+            "question": "Do Moderators have contact to RobTop?",
+            "answer": "Yes, Moderators are able to contact <b><y>RobTop</y></b>. If some kind of issue arises, <b><y>RobTop</y></b> can be informed via a Moderator."
+        },
+        {
+            "id":"modCandidate",
+            "question":"How does one become a Moderator? ",
+            "answer":"The only way to become a Moderator is through being promoted by RobTop himself. If you contribute to the community of Geometry Dash in positive ways, your contributions may be noticed by Moderators or Elder Moderators, and may be forwarded to RobTop. Beyond that, there aren't any clear steps to getting it. <b>However, this is generally what is looked for in Moderator candidates:</b><hr> - <c>Be nice.</c> If you’re known to be toxic you probably won’t get it. <hr>- <c>Be active in the community.</c> If you’re hardly present in the community you probably won’t get it.<hr>- <c>Be trustworthy.</c> If you don’t have any connections within the Moderator team, we can’t confirm if you can be trusted. One thing is important information that could be leaked, but if no one can vouch for you being trustworthy, how can we know you won’t just send a ton of bad levels or use your Moderator position to hate on creators? You’re a representative of RobTop as a Moderator.<hr> - <c>Be able to judge levels well.</c> We need to be able to confirm that you can differentiate a good level from a bad level."
+        },
+        {
+            "id": "modChat",
+            "question": "What is the Mod Chat?",
+            "answer": "The \"Modchat\" is a strictly private Discord server for the Moderators of Geometry Dash. It allows for a safe environment to discuss topics that concern Moderators."
+        },
+        {
+            "id": "modLeakClause",
+            "question": "Why are Moderators not allowed to leak Modchat contents?",
+            "answer": "The purpose of Modchat is to be a safe environment for discussing various Moderator-related topics, many of which simply do not concern the public."
+        },
+        {
+            "id": "modStandards",
+            "question": "What standards do Moderators have when sending levels?",
+            "answer": "Each moderator has their own subjective standards, but everyone must follow certain rules when evaluating levels. <hr>・Stolen designs or levels, inappropriate content cannot be sent to RobTop. Other factors, such as the length of the level or whether the song can be downloaded in the game, can influence the decisions of the moderators."
+        },
+        {
+            "id": "canElderRate",
+            "question": "Can Elder Moderators rate levels?",
+            "answer": "No, the only person who can rate levels is RobTop."
+        },
+        {
+            "id": "reqButton",
+            "question":"What does the \"Req\" button do inside the settings?",
+            "answer":"This button is used by new Moderators to enable sending levels to RobTop."
+        }
+    ]
+}

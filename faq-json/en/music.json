@@ -1,0 +1,60 @@
+{
+    "title": "Music: FAQ",
+    "exam": [
+        {
+            "id": "whitelisting",
+            "question": "What is whitelisting?",
+            "answer": "In order for Newgrounds artists to have their songs usable in Geometry Dash, they have to be first scouted on Newgrounds and then whitelisted by an <e>Elder Moderator</e> or <y>RobTop</y>. This system was put into place to prevent uploads of stolen songs on Newgrounds."
+        },
+        {
+            "id": "scouting",
+            "question": "How can I be scouted?",
+            "answer": "<e>Elder Moderators</e> cannot scout, they can only whitelist users. In order to be scouted, you need another artist to do so for you. You can find more about scouting here: <a href='https://www.newgrounds.com/bbs/topic/1418778'>About Scouting.</a>"
+        },
+        {
+            "id": "whitelistPerms",
+            "question": "Who can whitelist artists?",
+            "answer": "Artists can be whitelisted by an <e>Elder Moderator</e> or <y>RobTop</y>."
+        },
+        {
+            "id": "whitelistBlocked",
+            "question": "Who can be whitelisted, who can't?",
+            "answer": "In general, all artists who have at least one song, which is their own original work, can be whitelisted. An artist will not be whitelisted, if his songs are stolen or NSFW."
+        },
+        {
+            "id": "whitelistRequest",
+            "question": "How can I suggest people to be whitelisted?",
+            "answer": "You can suggest people or apply for yourself by DMing an <e>Elder Moderator</e> or <m>Moderator</m>. Only Elder Moderators can whitelist users, but regular Moderators can show you to an Elder Moderator.<hr>Please note that being scouted is a requirement for whitelist."
+        },
+        {
+            "id": "whitelistRemoval",
+            "question": "Can artists be removed from the whitelist?",
+            "answer": "Artists can be removed from the whitelist if they are caught uploading stolen songs or if they break Newgrounds ToS. For questions about these terms, please read: <a href='https://www.newgrounds.com/wiki/help-information/terms-of-use'>Terms of Use</a> and <a href='https://www.newgrounds.com/wiki/help-information/content-submission'>Content Submission</a>"
+        },
+        {
+            "id": "whitelistCredentialsOutdated",
+            "question": "Does changing your Newgrounds name get you removed from the whitelist?",
+            "answer": "Changing your name on Newgrounds does effectively remove you from the whitelist, requiring you to get whitelisted anew."
+        },
+        {
+            "id":"cantDownloadSongs",
+            "question":" Why can't I download songs?",
+            "answer":"・Some songs in the game may not be available for download due to copyright issues. This can happen if the composer doesn't give permission for its use or if the song has been removed from the site. <hr>・The website could be banned in your country. You can confirm this if you cannot access the website; in this case there is nothing you can do, other than bypass the block which we do not endorse because depending on where you live it could potentially be illegal, you will have to get used to downloading songs from the internet and manually replace them. <hr>・It is also possible that you are banned from the website; in that case get in contact with the website's moderators as we cannot do anything to help you."
+        },
+        {
+            "id":"soundNotWorking",
+            "question":"Why is my game sound not working?",
+            "answer":"・It's possible that the game files are damaged. In this event, try reinstalling the game. Check the volume mixer, too, as you might have the audio for Geometry Dash muted.<hr> ・If it's only Newgrounds songs not playing, go to the in-game settings and checkmark <i>Change custom songs location.</i> <hr> ・On mobile, the audio is muted sometimes when you close the game using the \"Home\" button. In that instance, simply restart the game. <hr>・On iOS, you might have to enable the ringtone switch on your phone."
+        },
+        {
+            "id":"desyncSong",
+            "question":"My game is desynced with the song. What do I do?",
+            "answer":"The common cause of this is because of having enabled Smooth fix without noticing it. This is enabled by default on mobile devices. What this does is to slow down the game when it detects lag. If your game is slowed down the music should resync when you pause and resume. You can also increase the music offset on the setting found at the last page in <i>Options</i>."
+        },
+        {
+            "id":"limitedDigits",
+            "question":"I can't insert 7 digits custom songs in-game. What can i do?",
+            "answer":"There is not much you can do, but in Android using the floating keyboard feature on Google's keyboard solves the issue. <hr> This only happens on mobile devices, the game hasn't been updated for a while on this platform and newgrounds recently reached it's 1000000th song. However you still can download these songs from online levels or your own local levels."
+        }
+    ]
+}

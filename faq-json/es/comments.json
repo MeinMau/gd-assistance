@@ -1,0 +1,56 @@
+{
+    "title": "Comentarios: FAQ",
+    "exam": [
+        {
+            "emote":"chat.png",
+            "id": "commentRules",
+            "question": "¿Cuáles son las reglas de comentar?",
+            "answer": "Las reglas existen para promover comportamientos buenos. Son guias simples que tratan de frenar a los miembros que envian comentarios innapropiados o molestos. Infringir las normas puede resultar en sanciones o bloqueos permanentes.<br><b>Estas son las normativas de la comunidad: </b><hr>・<c>Flaming</c>: No envies comentarios hostiles a otros miembros del juego.<hr>・<c>Spamming</c>: No envies comentarios con el fin de promover tus niveles.<hr>・<c>Profanity</c>: No uses un lenguaje crudo."
+        },
+        {
+            "id": "commentRulesSimplicity",
+            "question": "¿Por qué estas reglas son tan simples?",
+            "answer": "Cuando se implementó el sistema de comentarios, no se priorizó definir completamente las reglas ya que el sistema no era tan popular en ese entonces. Las reglas actuales fueron suficientes en ese momento, pero se espera que sean actualizadas en la próxima actualización."
+        },
+        {
+            "emote":"trash.png",
+            "id": "commentRulesUseless",
+            "question": "¿Por qué la sección de help es inútil?",
+            "answer": "La sección de comentarios no fue diseñada para ser una sala de conversación, por lo que no se le dio prioridad en el desarrollo. Actualmente, esta sección es inútil hasta la proxima actualización."
+        },
+        {
+            "emote":"contact.png",
+            "id": "reportComments",
+            "question": "¿Cómo puedo denunciar miembros infringiendo reglas?",
+            "answer": "Envia un mensaje a un Elder Moderador mediante mensajes directos."
+        },
+        {
+            "emote":"exMark.png",
+            "id": "permabans",
+            "question": "¿Qué son los ban permanentes?",
+            "answer": "Los bans permanentes son aquellos que no tienen duración o duran demasiado tiempo, son para usuarios que infringen constantemente las normas o las infringen severamente. El temporizador del juego solo muestra una duración máxima de 34 días y 22 horas, pero los bans que tienen esta duración por lo general son mucho mas largos, incluso pueden ser permanentes."
+        },
+        {
+            "emote":"lockGray.png",
+            "id": "appealComment",
+            "question": "He sido bloqueado del sistema de comentarios. ¿Puedo apelar?",
+            "answer": "En general, bans justificados no son removidos, si crees que fue un error, mándale un mensaje directo a algún Elder Moderador."
+        },
+        {
+            "id": "reappearDeletion",
+            "question": "¿Por qué reaparece el comentario que intento eliminar?",
+            "answer": "Ocurre cuando el comentario que intentas eliminar está en un nivel que ha sido removido del servidor. Por ahora no será posible eliminarlos por completo."
+        },
+        {
+            "emote":"explotion.png",
+            "id": "commentsCrash",
+            "question": "¿Por qué el juego se cierra cuando abro la sección de comentarios?",
+            "answer": "Esto ocurre cuando tienes el control parental activado. Esta función no está completa, causando que el juego no funcione al abrir la sección de comentarios. Será arreglado en 2.2."
+        },
+        {
+            "id": "insecurePassword",
+            "question": "El juego sigue insistiendo en que mi contraseña es insegura, ¿qué ocurre?",
+            "answer": "Tu contraseña es insegura según los estándares del servidor. Para mejorar la seguridad, usa un guion en algún lugar de tu contraseña y evita usar contraseñas cortas o palabras comunes. Es importante que tu contraseña tenga más de 9 caracteres para disminuir la posibilidad de que sea descubierta por fuerza bruta. Además, recuerda actualizar tus credenciales y hacer refresh login cada vez que cambies tu contraseña para resolver cualquier problema."
+        }
+    ]
+}

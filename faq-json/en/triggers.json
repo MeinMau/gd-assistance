@@ -1,0 +1,197 @@
+{
+    "title": "Triggers",
+    "exam": [
+        {
+            "emote": "triggers/startPos.png",
+            "id": "startPos",
+            "question": "Start Pos",
+            "answer": "<b>Assigns a start position for playtesting further into the level without the necessity of playing the level from the start.</b> <hr> A level cannot be verified if it has a start position. Does not stack, the game uses the start position that is closer to the ending of the level. All start positions can be deleted using the \"All Start Pos\" button found in the delete section.<hr> • <b>\"Speed\"</b> is the speed at which the player starts when using the start position. <center><img class='transparentBox' src='/public/assets/editor/speed.png'></center><hr> • <b>\"Select mode\"</b> is the game mode assigned to the player when it starts from the trigger. The position of the start position will serve as the center of the distance between the ground and ceiling for those game modes that have boundaries (Ship, Ball, UFO, Wave, and Spider).<center><img class='transparentBox' src='/public/assets/editor/selectMode.png'></center><hr> • <b>\"Mini\"</b> assigns the player the mini gamemode, which is the same that is assigned when the player reaches a size portal. <center><img class='transparentBox' src='/public/assets/editor/mini.png'></center> <hr> • <b>\"Dual\"</b> assigns the Dual gamemode. The trigger will serve as the center of the distance between the ground and ceiling, and the second player will spawn in the same position as the first. <center><img class='transparentBox' src='/public/assets/editor/dual.png'></center><hr> • <b>\"Flip gravity\"</b> causes the player to start upside down. By default, the player has regular gravity. <center><img class='transparentBox' src='/public/assets/editor/flipGravity.png'></center>"
+        },
+        {
+            "emote": "triggers/color.png",
+            "id": "colorTrigger",
+            "question": "Color Trigger",
+            "answer": "<b>Changes the color of a channel.</b> <hr> For the color trigger to take effect, it is necessary that the targeted object supports channels. Use the wheel to select the new color for the channel. This trigger does not stack, meaning that a later color trigger can interrupt the change performed by an earlier color trigger. <hr> • <b>\"FadeTime\"</b> is the time that it takes for the change to apply. Setting the slidebar at 0 will cause the change to occur inmediately. <center><img class='transparentBox' src='/public/assets/editor/fadeTime.png'></center><hr>• <b>\"Opacity\"</b> is the transparency the color can have.</b> Using opacity will make it's targets transparent for the value set. Opacity is influended by Fade time. <center><img class='transparentBox' src='/public/assets/editor/opacity.png'></center><hr>• <b>\"Color ID\"</b> refers to the channel that is going to be targeted. The + icon at the top presents targets that are not based in a channel ID, incluiding Background, Ground 1, Ground 2, Ground line, Object and 3D line. <center><img class='transparentBox' src='/public/assets/editor/colorID.png'></center><hr>• <b>\"Copy\"</b> is a tool used to store a color in the memory. <b>\"Paste\"</b> is a tool used to apply the stored color. Both of these tools can be found in color triggers, pulse triggers and channels. <b>\"Default\"</b> sets the color to what the creator set to be using the editor channel's menu. <center><img class='transparentBox' src='/public/assets/editor/copyPasteDefault.png'></center> <hr> • <b>\"Copy color\"</b> uses another channel ID as reference. Toggling on this menu will open the HSV tab, where you can edit the HUE, Saturation and brightness of the color. <center><img class='transparentBox' src='/public/assets/editor/copyColor.png'></center> <br> — <c>HUE</c> is the position of a color on the color wheel, measured in degrees. Setting a HUE of 30 means the new color will be located 30 degrees clockwise from the old color. For example, pulsing red at 180 HUE will result in light blue, which is the position 180 degrees clockwise from red. Negative values can also be used, with -180 HUE being equivalent to 180 HUE. <br> <center><img class='transparentBox' src='/public/assets/editor/hue.png'></center> <br> — <c>Saturation</c> refers to the intensity of color in a target, with 0 saturation being white and 1.0 saturation being the strongest perceivable color. The slide bar works multiplicatively, meaning the degree of saturation (or desaturation, if negative) depends on the original saturation of the color. It is also possible to switch to additive mode, where the degree of change can be ranged from -1 to 1. <br> <center><img class='transparentBox' src='/public/assets/editor/saturation.png'></center> <br> — <c>Brightness</c> refers to the darkness or lightness of a color. Higher brightness means less darkness, while 0 brightness indicates complete black. The slide bar works multiplicatively, which means that the degree of change depends on the original brightness of the color. This can also be changed to additive mode. <br> <center><img class='transparentBox' src='/public/assets/editor/brightness.png'></center> <br> <hr> • <b>\"Player color 1 or 2\"</b> uses the color of the player instead of an assignment. <center><img class='transparentBox' src='/public/assets/editor/playerColor.png'></center>  <hr> • <b>\"Blending\"</b> toggles on a behaviour in colours that allow them to add it's values to other colours. Additive blending uses RED, BLUE and GREEN as values, each of these goes up to 255 of value. 255 RED, 255 BLUE and 255 GREEN results in white, while 0 of each will turn the color black, which is invisible. Colors in blending may require to be assigned a higher layer in the editor for them to be visible over other objects. <center><img class='transparentBox' src='/public/assets/editor/blending.png'></center> "
+        },
+        {
+            "emote": "triggers/move.png",
+            "id": "moveTrigger",
+            "question": "Move Trigger",
+            "answer": "<b>Moves an object.</b><hr>It can move any object except velocity portals and triggers (which can only move in the Y axis). The movement unit is 1/10 of a grid, so setting 10 units in the move Y box will move the object up by one grid. You can input up to 5 digits (or 4 on mobile devices due to keyboard bugs) in the Move boxes. Multiple move triggers can be used together. <br> <hr> • <b>\"Lock player X and Lock player Y\"</b> force the targets to move at the same velocity of the player during the set duration. The X axis will follow the player horizontally while the Y axis will follow the player vertically <center><img   class='transparentBox' src='/public/assets/editor/lockPlayers.png'></center><hr> • <b>\"Follow target\"</b> replaces the unit boxes, and instead it forces a single object to move to the position of another single object. It only works with one object as a target and one object being moved. The object being moved won't follow the target if the target is moving, it will just move to the target's position at the moment the trigger was activated.  <center><img  class='transparentBox' src='/public/assets/editor/targetPos.png'></center><hr> • <b>\"Easing\"</b> modifies the movement of the objects. The available options are \"Ease\", \"Elastic\", \"Bounce\", \"Exponential\", \"Sine\" and \"Back\". [Ease] in refers to the beggining of the movement, [Ease] out refers to the ending of it.  <center><img class='transparentBox' src='/public/assets/editor/easing.png'></center> <hr> • <b>\"Move Time\"</b> is the duration it takes for objects to reach their destination. The slide bar allows for up to 10 seconds, but more can be manually entered, with a limit of 4 digits (3 digits in mobile), including decimals. <center><img class='transparentBox' src='/public/assets/editor/moveTime.png'></center>"
+        },
+        {
+            "emote": "triggers/stop.png",
+            "id": "stopTrigger",
+            "question": "Stop Trigger",
+            "answer": "<b>Stops a trigger from functioning.</b> <hr> Can only stop triggers that operate with a time interval, such as Move, Pulse, Alpha, Spawn, Rotate, Follow, Follow player X, Touch, Count, Collision, and Death. <hr> • <b>Stop trigger can only be used during the performance of a trigger.</b> Stop trigger will not deactivate a given trigger forever, meaning they can be reactivated if a Spawn triggers commands it, and that stopping a trigger before the targeted trigger activates is useless. <hr> • <b>Stop trigger does not undo the action carried by a trigger.</b> Stopping those triggers that are based in movement will stop the targeted objects, leaving them in place where the trigger last left them at. Stopping a color trigger will leave the colored object in the middle of the color change, depending of when this trigger is stopped. Despite this, stopping a Pulse trigger will completely undo the color change, leaving the colored object back to it's original color. <hr> • <b>Group ID</b>: The box where the Group of the triggers to be stopped must be inserted. It is not necessary to set the targeted triggers in \"Spawn triggered\".<hr> • <b>Exceptions:</b> The only trigger that can't be stopped is the Shake trigger. The Spawn trigger can only be stopped when this has a delay; stopping this trigger during this time will cancel the final Spawn."
+        },
+        {
+            "emote": "triggers/pulse.png",
+            "id": "pulseTrigger",
+            "question": "Pulse Trigger",
+            "answer": "<b>Temporarily changes the color value of a given object.</b> <hr>The triggers offer many methods to customize these values, including the color wheel, the option to copy a different channel, HUE, saturation and brightness. It is possible to alternate between pulsing a color channel or a group ID.<hr> • <b>Color pulse mode</b>: pulses the targets to a established color.<hr> •  <b>HSV pulse mode</b>: pulses the targets based on value; <br><br>— <c>HUE</c> determines the color's position in the color wheel, measured in degrees. Setting a HUE of 30 means the new color will be located 30° clockwise from the old color. For instance, if you pulse red for 180 HUE, the new color will be light blue, located 180° clockwise from red. Negative values can also be used; for example, -180 HUE is the same as 180 HUE. <center><img class='transparentBox' src='/public/assets/editor/hue.png'></center><br>— <c>Saturation</c> refers to the intensity of the color. A saturation of 0 means the color is white, and a saturation of 1.0 is the strongest perceivable intensity. The slide bar's effect on saturation is multiplicative, meaning the amount of change depends on the original saturation of the color. Alternatively, the math can be changed to be additive, allowing for a range of change from -1 to 1. <center><img class='transparentBox' src='/public/assets/editor/saturation.png'></center><br>— <c>Brightness</c> refers to the amount of black pigment in a color. Increasing brightness reduces the darkness in a color, while a brightness of 0 results in complete blackness. The slide bar's effect on brightness is multiplicative, similar to the saturation slider, meaning the amount of change depends on the original brightness of the color. However, this can be changed to an additive effect if desired. <center><img class='transparentBox' src='/public/assets/editor/brightness.png'></center><br>— <c>The Color ID</c> box, located on the right side, refers to a different color channel used as a reference. Setting a Color ID means the target will pulse based on the color of the assigned channel rather than its previous color. <center><img class='transparentBox' src='/public/assets/editor/colorID.png'></center><hr>• <b>Target type</b>: Refers to the different IDs that can be used to target an object.<br>— <c>Channel ID</c> will pulse the change to a given channel, meaning every object that share the targeted ID will be pulsed. <center><img class='transparentBox' src='/public/assets/editor/channelID.png'></center><br>— <c>Group ID</c> will pulse the objects that are in a group ID instead. Using this targeting mode will show two option boxes in the top zone; Base only and detail only. Toggling either will command the trigger to only pulse one of the two, for these objects that support them. Using channel ID targeting mode allows for the color change of objects that are not normally color editable, including triggers, portals, orbs and pads. <center><img class='transparentBox' src='/public/assets/editor/groupID.png'></center> <hr>• <b>\"Fade In, Hold and Fade Out\"</b> customizes the behaviour at which the target pulses. Not setting a time in any of these renders the trigger useless. Fade in adds a gradient at the start of the pulse for the set duration, Hold maintains the final color pulse for the set duration, and Fade out adds a final gradient at the end of the pulse for the set duration. <center><img class='transparentBox' src='/public/assets/editor/holdFade.png'></center><hr>• <b>\"Exclusive\"</b> commands other pulse triggers to stop working if they all target the same ID. Using two or more pulses in a same target will mean that those pulses that have a shorter duration will allow these pulses with longer durations to continue. Toggling on \"Exclusive\" will instead prevent this, causing the target to go back to it's original color upon ending instead of allowing other pulse triggers to persist."
+        },
+        {
+            "emote": "triggers/alpha.png",
+            "id": "alphaTrigger",
+            "question": "Alpha Trigger",
+            "answer": "<b>Reduces the opacity of a target.</b> <hr>• <b>\"Group ID\"</b> represents the target in which the creator wants to reduce opacity. <center><img class='transparentBox' src='/public/assets/editor/groupID.png'></center> <hr>• <b>\"FadeTime\"</b> is the speed at which the opacity is changed upon activation.  <center><img class='transparentBox' src='/public/assets/editor/fadeTime.png'></center> <hr>• <b>\"Opacity\" determines how transparent a target should be.</b> It uses multiplicative values, meaning it can work with other targets that already have some level of opacity. The target's opacity cannot be increased if another Alpha trigger with a different group ID sets it to zero, and cannot be set to full (1) if another Alpha trigger with a different group affects the same target. <center><img class='transparentBox'src='/public/assets/editor/opacity.png'></center>"
+        },
+        {
+            "emote": "triggers/alpha.png",
+            "id": "toggleTrigger",
+            "question": "Toggle Trigger",
+            "answer": "<b>Toggles a target on or off.</b><hr> By default this trigger toggles a target off, when a target is toggled off it does not have a hitbox, is not visible and does not activate in the case of triggers. Toggling objects that are offscreen does not increase level performance. <hr>• <b>\"Target ID\"</b> refers to the group ID that is to be toggled on or off. <center><img class='transparentBox' src='/public/assets/editor/groupID.png'></center><hr>• <b>\"Activate Group\"</b> alternates from Off to On. Activating a target that hasn't been toggled off previously does not cause anything. Activating a trigger that was previously toggled off will not perform it's command if it's past the player. <center><img class='transparentBox' src='/public/assets/editor/activateGroup.png'></center>"
+        },
+        {
+            "emote": "triggers/spawn.png",
+            "id": "spawnTrigger",
+            "question": "Spawn Trigger",
+            "answer": " <b>Commands other triggers for activation</b>. <hr> To activate the Spawn trigger, its targets must have \"Spawn Triggered\" enabled in the edit menu. The optional \"Multi trigger\" tool allows a target to be activated multiple times. The Spawn trigger can activate other Spawn triggers and create trigger loops. All targets are activated simultaneously but ordered by their left-to-right position in the editor. <hr>• <b>\"Group ID\" refers to the triggers that have to be spawned/activated.</b> Set a Group ID to a target trigger and set it in \"Spawn Triggered\" (as already mentioned) for then assigning the Group ID in the spawn trigger. <center><img class='transparentBox' src='/public/assets/editor/groupID.png'></center> <hr>• <b>\"Delay\" keeps the Spawn trigger from executing instantly upon activation.</b> It is possible to add a timeframe before execution. <center><img class='transparentBox' src='/public/assets/editor/delay.png'></center>"
+        },
+        {
+            "emote": "triggers/rotate.png",
+            "id": "rotateTrigger",
+            "question": "Rotate Trigger",
+            "answer": "<b>Rotates objects.</b> <hr> The rotate trigger cannot rotate solid objects, however it can move them using a center as a target. <hr> • The \"Degrees\" box allows you to set a value in degrees, and if you don't specify a center ID, objects will rotate in place without moving. If you use the \"Lock object rotation\" with a center target ID, the objects will rotate around the center but not themselves. <center><img class='transparentBox' src='/public/assets/editor/degrees.png'></center> <hr> • The \"Times 360\" indicates the number of complete rotations the target should make, in addition to the number of degrees set in the previous box. <center><img class='transparentBox' src='/public/assets/editor/times360.png'></center> <hr> • Easing modifies the rotation of the objects. The available options are \"Ease\", \"Elastic\", \"Bounce\", \"Exponential\", \"Sine\" and \"Back\". [Ease] in refers to the beggining of the movement, [Ease] out refers to the ending of it. <center><img class='transparentBox' src='/public/assets/editor/easing.png'></center><hr>• Target Group ID refers to the set of objects that must be targeted. Center group ID is optional, and it refers to the center object of a set of objects, where if specifed, multiple targets can spin around the center. For this to work, it is important to set only one object as the center, meaning the center must have it's own dedicated group. <center><img class='transparentBox' src='/public/assets/editor/targetCenterGroup.png'></center> <hr>• Move time is the time that it takes for the rotation to perform it's command. Setting the time as 0 will cause the rotation to take effect inmediately. <center><img class='transparentBox' src='/public/assets/editor/moveTime.png'></center>"
+        },
+        {
+            "emote": "triggers/follow.png",
+            "id": "followTrigger",
+            "question": "Follow Trigger",
+            "answer": "<b>Commands a set of objects to follow a target.</b> <hr>• X modification and Y modification allow to change the behaviour at which the objects follow a target. By default it is set to 1, meaning that the targets will follow at a 1:1 of distance and speed in relation to the follow target. Setting the modification to something lower will reflect in a slower following, for example if the Y modification is at 0.5, it will follow the target at half the speed, in other words, 50% of the original speed. <center><img class='transparentBox' src='/public/assets/editor/xyMod.png'></center> "
+        },
+        {
+            "emote": "triggers/shake.png",
+            "id": "shakeTrigger",
+            "question": "Shake Trigger",
+            "answer": "<b>Implements behaviour of the screen to simulate a shake.</b> <hr>While this trigger causes camera movements, objects that are outside of the standart range (in other words, outside of the standard player camera) are not rendered. It is possible to toggle off this trigger for all levels in the game's settings, \"Disable shake effects\". This trigger will not stack, any new instance of a shake trigger activating while the camera is already being shaked will cause an interruption.<hr>• Strength is the distance between the standard camera and the new position of the camera when the trigger is activated, randomly picked every interval. You can set strength up to 5.0 using the slidebar or up to 20 by manual editing.<center><img class='transparentBox' src='/public/assets/editor/strength.png'></center><hr>• Interval refers to the time it takes for the camera to choose a different camera position. Setting this value to zero will cause the trigger to shake every frame. You can set the interval up to 0.1 seconds using the slidebar or up to 0.2 seconds by manual editing.<center><img class='transparentBox' src='/public/assets/editor/interval.png'></center> <hr>• Duration determines how long the camera will shake. You can set it up to 2 seconds using the slidebar or up to 10 seconds by manual editing. <center><img class='transparentBox' src='/public/assets/editor/duration.png'></center>"
+        },
+        {
+            "emote": "triggers/animate.png",
+            "id": "animateTrigger",
+            "question": "Animate Trigger",
+            "answer": "<b>Changes the behaviour of the animation that corresponds to the monsters.</b> <hr>• Group ID is the target, which must be either the big beast or the bat. <center><img class='transparentBox' src='/public/assets/editor/groupID.png'></center> <hr>• Animation ID is where the behaviour can be changed. The game lists the options in the information screen, which is opened by clicking the i found in the corner. They will also be listed here:These animations that have the word \"end\" are not persistent animations, they will reset the animation back to zero once performed."
+        },
+        {
+            "emote":"triggers/followPlayerY.png",
+            "id": "followPlayerYTrigger",
+            "question": "Follow Player Y",
+            "answer": "<b>Commands a set of objects to follow the Y axis of the player (Up and Down).</b> <hr> The targets will be set to the player's position upon startup and will not be affected by their previous Y position. To move multiple objects without stacking, use the Follow trigger with this trigger. The Follow trigger will interrupt any ongoing trigger and will not stack. <hr> • Speed determines the speed at which the objects move compared to the player. A speed of 1 means the objects move at the same speed as the player, and a speed of 0 stops the objects from following the player. <center><img class='transparentBox' src='/public/assets/editor/speedBar.png'></center> <hr> • Delay is an optional setting that allows the object to only recreate the player's movement until an assigned time has passed. Setting 1 in the box value will cause the targets to follow the player after one second. <center><img class='transparentBox' src='/public/assets/editor/delay.png'></center> <hr> • Offset is the distance between the player and the target. One unit is 1/10 of an editor grid. Can be set negative. <center><img class='transparentBox' src='/public/assets/editor/offset.png'></center> <hr> • Max speed commands the objects to stay to a limit, meaning that they can only go as fast as allowed to. The higher the max speed, the faster objects will be following the player. <center><img class='transparentBox' src='/public/assets/editor/maxSpeed.png'></center> <hr> • Move time determines the duration of the trigger. Can go up to 10 seconds using the slide bar, but can be manually edited a higher number. <center><img class='transparentBox' src='/public/assets/editor/moveTime.png'></center> <hr>• Target group ID is the group of the objects that will be commanded to follow the player with the modifications set, if any. <center><img class='transparentBox' src='/public/assets/editor/delay.png'></center>"
+        },
+        {
+            "emote":"triggers/touch.png",
+            "id": "touchTrigger",
+            "question": "Touch Trigger",
+            "answer": "<b>Behaves like a toggle trigger, but is activated when the player given an input.</b> <hr> By default, the trigger toggles on and off objects and triggers alternating each click. However this can be customized.<hr> • Group ID identifies the objects and triggers that will be turned on and off. The trigger needs to be in \"Spawn triggered\" mode and \"Multi trigger\" can be turned on if the trigger needs to be activated more than once. <center><img class='transparentBox' src='/public/assets/editor/groupID.png'></center><hr> • Hold mode adjusts the touch trigger behavior so that holding turns off the targets and releasing turns them back on. If the target is a trigger, it will always activate when released. This can be changed if \"Toggle on\" is enabled. <center><img class='transparentBox' src='/public/assets/editor/holdMode.png'></center><hr> • \"Toggle On\" and \"Toggle Off\" refer to the action that the Touch trigger performs when activated. They are either one or the other and they change the way Hold mode works. If the target is a target, \"Toggle On\" should be activated. <center><img class='transparentBox' src='/public/assets/editor/toggleOffOn.png'></center>"
+        },
+        {
+            "emote":"triggers/count.png",
+            "id": "countTrigger",
+            "question": "Count Trigger",
+            "answer": "<b>Awaits for a count to be reached and acts as a toggle trigger.</b> <hr> The trigger works with collectibles found in the tab with the orb icon. Collectibles increase or decrease the count, and the trigger can be used with the Count object, but it's not necessary. The trigger only starts counting when activated, so any previous count changes won't be considered. <hr> • <b>\"Item ID\"</b> refers to the pickup items that are going to be used for the count increase/decrease. The ID must match the pickup items ID, in which can be assigned by selecting the pickup, then clicking in \"Edit special\". <center><img class='transparentBox' src='/public/assets/editor/itemID.png'></center><hr>  <hr> • <b>\"Target ID\"</b> is the Group ID of the objects and/or triggers that will be toggled on or off. This action will be performed once the desired count is reached. <center><img class='transparentBox' src='/public/assets/editor/targetID.png'></center><hr> • <b>\"Target Count\"</b> is the amount of collectibles that should be collected for the trigger to perform. Setting 0 renders the trigger useless. <center><img class='transparentBox' src='/public/assets/editor/targetCount.png'></center><hr> • <b>\"Activate Group\"</b> will toggle on objects and triggers instead of toggling them off, as set by default. If the target is a trigger, this should be enabled.  <center><img class='transparentBox' src='/public/assets/editor/activateGroup.png'></center><hr> • \"Multi Activate\" allows the Count trigger to toggle the target each time the target count is reached, even with subtract pickups. The Count is not reset to zero when reached, so the trigger won't reactivate if the count reaches a multiple of the target count. It will only reactivate if the count decreases to the target count from a higher number. <center><img class='transparentBox' src='/public/assets/editor/multiActivate.png'></center> "
+        },
+        {
+            "emote":"triggers/instantCount.png",
+            "id": "instantCountTrigger",
+            "question": "Instant Count Trigger",
+            "answer": "<b>Takes an ongoing count and activates whether a condition has been met.</b> <hr> The difference between the Count trigger and the Instant count trigger is that the Count trigger awaits for a count to be reached, while the Instant count trigger inmediately checks whether a condition is met and activates if so.<hr> • \"Item ID\" refers to the ID pickup items can be assigned to. Upon trigger activation, It checks the current count of pickup items and toggle on/off the target ID. <center><img class='transparentBox' src='/public/assets/editor/itemID.png'></center><hr> • Target ID is used to identify groups of objects and triggers. By default, the trigger will toggle the objects off, but enabling \"Activate group\" will toggle them on. If the targets are triggers, it is important to also enable \"Spawn triggered.\" <center><img class='transparentBox' src='/public/assets/editor/targetID.png'></center><hr> • \"Target Count\" is the amount of collectibles that should be collected for the trigger to perform, depending on the setting that the trigger is on. <center><img class='transparentBox' src='/public/assets/editor/targetCount.png'></center><hr> • \"Equals\", \"Larger\", and \"Smaller\" options determine the triggering behavior of the trigger based on the count of collectibles. \"Equals\" triggers when the collectible count matches the assigned target count. \"Larger\" triggers when the collectible count is greater than the target count. \"Smaller\" triggers when the collectible count is less than the target count."
+        },
+        {
+            "emote":"triggers/pickup.png",
+            "id": "pickupTrigger",
+            "question": "Pickup Trigger",
+            "answer": "<b>Injects a value into a count ID.</b> <hr> Upon activation, it adds or substracts a number of pickup counts into an Item ID.<hr> • \"Item ID\" is the target that will receive the added or substracted count. The plus button assigns a free Pickup ID, where no triggers or pickups have added or substracted a value. <center><img class='transparentBox' src='/public/assets/editor/itemID.png'></center><hr> • \"Count\" is how much should the trigger add or substract an Item ID. To substract, it must be set negative. <center><img class='transparentBox' src='/public/assets/editor/count.png'></center>"
+        },
+        {
+            "emote":"triggers/collision.png",
+            "id": "collisionTrigger",
+            "question": "Collision Trigger",
+            "answer":"<b>Awaits for two collision blocks to collide to activate.</b> <hr> The trigger only works with collision blocks found besides the trigger in the object tab and one of the objects must be set to \"Dynamic block.\" The trigger must be placed before the collision occurs. While the collision blocks can be moved, they cannot be rotated, meaning that the collision will remain in place despite the texture rotating.<hr> • \"BlockA ID\" is one of the two collision blocks ID which can be assigned to blocks using the \"Edit special\" button. <center><img class='transparentBox' src='/public/assets/editor/blockaID.png'></center><hr> • \"BlockB ID\" is the other collision block ID that must collide with BlockA for the trigger to activate. The order of the Block IDs does not matter. <center><img class='transparentBox' src='/public/assets/editor/blockbID.png'></center><hr> • \"Target ID\" is the identifier for objects and triggers that can be turned on or off using a toggle trigger. By enabling \"Activate group,\" the trigger will turn on previously turned off objects and triggers. If the targets are triggers, it is necessary to enable \"Spawn triggered.\" <center><img class='transparentBox' src='/public/assets/editor/targetID.png'></center><hr> • \"Trigger on exit\" will change when the trigger activates, it not only waits for the blocks to collide, it also waits to the point where they are no longer colliding. <center><img class='transparentBox' src='/public/assets/editor/triggerOnExit.png'></center>"
+        },
+        {
+            "emote":"triggers/onDeath.png",
+            "id": "onDeathTrigger",
+            "question":"On Death Trigger",
+            "answer":"<b>Toggle trigger that is activated once the player is dead.</b> <hr> • \"Target ID\" is a group identifier for objects and triggers. The trigger will turn off the targets by default, but \"Activate group\" can change this behavior to turn them on. If the targets are triggers, it is important to turn on \"Spawn triggered.\" <center><img class='transparentBox' src='/public/assets/editor/targetID.png'></center>"
+        },
+        {
+            "emote":"triggers/trail.png",
+            "id":"trailTrigger",
+            "question":"Trail Trigger",
+            "answer":"<b>Adds an effect to the player's movement, consisting of a trail that has mimics of the icon in a given position.</b> <hr> The trail's color is based in the Player 1 color, with a blending setting added. Can be set to be touch triggered or spawn triggered.<hr> • Disable is the variation that toggles off this trail. By default level setting, the trail is toggled off. <center><img class='gif' src='/public/assets/editor/disableTrailTrigger.gif'></center><hr> • Enable toggles on the trail. Will not stop until a Disable trigger is put in place. <center><img src='/public/assets/editor/onTrailTrigger.gif' class='gif'></center>"
+        },
+        {
+            "emote":"triggers/backgroundEffect.png",
+            "id":"backgroundEffectTrigger",
+            "question":"Background Effect Trigger",
+            "answer":"<b> Adds an effect to the background, consisting of randomly generated particles.</b> <hr> The particles color is based in the Player 1 color, with a blending setting added. Can be set to be touch triggered or spawn triggered.<hr> • \"Enable\" toggles on the effect. By default, this is toggled on. It is only displayed in the Ship, Ufo and Wave gamemode. <center><img class='gif' src='/public/assets/editor/backgroundEffect.gif' ></center><hr> • \"Disable\" toggles off the effect for all gamemodes. "
+        },
+        {
+            "emote":"triggers/enterAnimationDisable.png",
+            "id":"enterAnimationDisableTrigger",
+            "question":"Disable Enter Animation Trigger",
+            "answer":"<b>Toggles off all enter animations, excluding the fade some objects have.</b> <hr>To disable the enter animations only to specific objects, \"Dont Enter\" setting must be used instead, which is found in the Group tab."
+        },
+        {
+            "emote":"triggers/enterAnimation1.png",
+            "id":"enterAnimation1",
+            "question":"Enter Animation 1",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation1.gif'></center>"
+        },
+        {
+            "emote":"triggers/enterAnimation2.png",
+            "id":"enterAnimation2",
+            "question":"Enter Animation 2",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation2.gif'></center>"
+        },
+        {
+            "emote":"triggers/enterAnimation3.png",
+            "id":"enterAnimation3",
+            "question":"Enter Animation 3",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation3.gif'></center>"
+        },
+        {
+            "emote":"triggers/enterAnimation4.png",
+            "id":"enterAnimation4",
+            "question":"Enter Animation 4",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation4.gif'></center>"
+        },
+        {
+            "emote":"triggers/enterAnimation5.png",
+            "id":"enterAnimation5",
+            "question":"Enter Animation 5",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation5.gif'></center>"
+        },
+        {
+            "emote":"triggers/enterAnimation6.png",
+            "id":"enterAnimation6",
+            "question":"Enter Animation 6",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation6.gif'></center>"
+        },
+        {
+            "emote":"triggers/enterAnimation7.png",
+            "id":"enterAnimation7",
+            "question":"Enter Animation 7",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation7.gif'></center>"
+        },
+        {
+            "emote":"triggers/enterAnimation8.png",
+            "id":"enterAnimation8",
+            "question":"Enter Animation 8",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation8.gif' ></center>"
+        },
+        {
+            "emote":"triggers/enterAnimation9.png",
+            "id":"enterAnimation9",
+            "question":"Enter Animation 9",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation9.gif' ></center>"
+        },
+        {
+            "emote":"triggers/enterAnimation10.png",
+            "id":"enterAnimation10",
+            "question":"Enter Animation 10",
+            "answer":"<b>Adds an effect to the enter and exit of objects to and from the screen.</b> <hr> Objects entering and exiting from the vertical sides of the screen are not affected. <center><img class='gif' src='/public/assets/editor/enterAnimation10.gif'></center>"
+        }
+    ]
+}

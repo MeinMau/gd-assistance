@@ -1,0 +1,65 @@
+{
+    "title": "Musica: FAQ",
+    "exam": [
+        {
+            "emote":"noteIcon.png",
+            "id": "whitelisting",
+            "question": "¿Qué es el whitelisting?",
+            "answer": "Es un sistema que permite que las canciones se puedan utilizar dentro del juego. Un <e>Moderador Elder</e> o <y>Robtop</y> te puede asignar en esta lista, pero primero tienes que tener un perfil scouted. Está hecha para evitar la publicación de música robada."
+        },
+        {
+            "emote":"newgrounds.png",
+            "id": "scouting",
+            "question": "¿Cómo puedo ser Scouted?",
+            "answer": "Por desgracia los <e>Moderadores Elder</e> no te pueden ayudar con esto, ya que estos solo pueden asignar artistas al whitelist. Necesitas a otro artista dentro de la página de Newgrounds para que te asigne un scout. Lee este foro para mas información sobre esto: <a href='https://www.newgrounds.com/bbs/topic/1418778'>About Scouting.</a>"
+        },
+        {
+            "emote":"plus.png",
+            "id": "whitelistPerms",
+            "question": "¿Quién puede asignar artistas a la whitelist?",
+            "answer": "Solamente los <e>Moderadores Elder</e> y <y>RobTop</y> pueden asignar personas a la whitelist."
+        },
+        {
+            "id": "whitelistBlocked",
+            "question": "¿Quién puede ser whitelisted, quién no?",
+            "answer": "Artistas que por lo menos tengan una canción pueden ser whitelisted, siempre y cuando la música no haya sido robada, o es apropiada para el juego."
+        },
+        {
+            "id": "whitelistRequest",
+            "question": "¿Cómo puedo sugerir a artistas para que sean incluidos en la whitelist?",
+            "answer": "Puedes sugerir a otras personas o a ti mismo al contactar con un <e>moderador elder</e>. Mientras que estos son los únicos que pueden agregar artistas a la whitelist, los <m>Moderadores regulares</m> pueden enseñarte a los <e>Moderadores Elder</e>. <hr>Recuerda que primero el perfil de artista tiene que ser Scout."
+        },
+        {
+            "id": "whitelistRemoval",
+            "question": "¿Pueden los artistas ser eliminados de la whitelist?",
+            "answer": "Si. Cuando se infringe las normas de Newgrounds los artistas son removidos de la whitelist. Puedes entrar en estos hipervinculos a los terminos de servicio de Newgrounds: <a href='https://www.newgrounds.com/wiki/help-information/content-submission'>¿Qué puedo subir?</a> y <a href='https://www.newgrounds.com/wiki/help-information/terms-of-use'>Terminos de Servicio</a>.            "
+        },
+        {
+            "id": "whitelistCredentialsOutdated",
+            "question": "¿Si cambio mi nombre es posible que sea eliminado de la whitelist?",
+            "answer": "En efecto, cambiar tu nombre de usuario en Newgrounds te quita de la whitelist, requiriendo que tengas que ser aprobado nuevamente."
+        },
+        {
+            "id":"cantDownloadSongs",
+            "question":"¿Por qué no puedo descargar canciones?",
+            "answer":"・ Algunas canciones en el juego podrían no estar disponibles para descarga debido a problemas de derechos de autor. Si el compositor no da permiso para su uso o si la canción ha sido eliminada del sitio, esto puede suceder. <hr>・Es posible que Newgrounds esté bloqueado en tu país, lo que impediría acceder al sitio. Si este es el caso, no se recomienda tratar de saltar el bloqueo debido a posibles consecuencias legales. En su lugar, deberías descargar las canciones por tu cuenta y agregarlas al juego. <hr>・Si tú eres la persona bloqueada del sitio, es necesario que te pongas en contacto con los moderadores correspondientes, ya que no podemos ayudarte en este caso."
+        },
+        {
+            "id":"soundNotWorking",
+            "question":"¿Por qué el sonido del juego no funciona?",
+            "answer":"・Es posible que algun archivo del juego este dañado. En este caso, intenta reinstalando el juego. Checa tu mezclador de sonido, ya que, podrías tener el juego silenciado.<hr> ・Si las canciones que no funcionan son especificamente de Newgrounds, ve a las configuraciones del juego y marca <i>Change custom songs location.</i> <hr> ・Cuando se cierra el juego en un dispositivo móvil usando el botón \"Home\", este se silencia. Si esto sucede, simplemente reinicia el juego.<hr> ・En iOS, puede que tengas que activar el ringtone del móvil para hacer funcionar el audio."
+        },
+        {
+            "id":"desyncSong",
+            "question":"La canción esta desincronizada con el juego. ¿Qué puedo hacer?",
+            "answer":"Una causa común es tener la opción Smooth Fix activada sin darse cuenta. Esta opción viene activada por defecto en móviles y ralentiza el juego cuando hay lag, lo que puede desincronizar la música.  Si esto sucede, puedes resincronizarlo pausando y reanudando la partida. También puedes desactivarla o ajustar el offset de la canción en la pantalla de \"Options\"."
+        },
+        {
+            "id":"limitedDigits",
+            "question":"No puedo insertar canciones de 7 digitos en el juego. ¿Qué puedo hacer?",
+            "answer":"No hay mucho que puedas hacer, pero utilizando la función de teclado flotante en el teclado de Google en dispositivos Android soluciona el problema. <hr>Solo ocurre en dispositivos móviles debido a que el juego no ha sido actualizado y Newgrounds ha alcanzado la canción ID 1000000. Aun así, todavía puedes descargar estas canciones desde niveles en línea o tus niveles creados.</b>"
+        }
+    ]
+}
+
+

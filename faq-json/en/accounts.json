@@ -1,0 +1,130 @@
+{
+    "title": "Accounts: FAQ",
+    "exam": [
+        {
+            "id": "cloudSave",
+            "question": "Why can't I save data to the cloud?",
+            "answer": "・Geometry dash may have trouble saving your data if you are using a lot of space in your editor levels; We suggest you to erase some of these, preferably these that have a lot of objects as they consume space the most. <hr>・Error -5 means your savefiles are outdated, and some online services, including saving, will be blocked. To fix this, go to your <i>Account</i>, click <i>More</i>, then select <i>Refresh login</i> and try logging in again. This won't cause any data loss. <hr>・If refreshing your login gives an error, try restoring your password using <a href='http://www.boomlings.com/database/accounts/lostpassword.php'>the Boomlings page.</a>"
+        },
+        {
+            "id": "errorLogin",
+            "question": "Why can't I log in?",
+            "answer": "If you use a password that doesn't match your profile, the game won't let you access your account. If you forgot your password or suspect that someone else changed it, use <a href='http://www.boomlings.com/database/accounts/lostpassword.php'>the Boomlings page</a> to restore it. You'll need to enter the email address you used to register your profile. If you don't remember the email or no longer have access to it, there's nothing you can do. <hr>To retrieve your account information, you can use the same website to request an email with your username. Simply enter your email and the website will send you the username associated with that email. <hr> If you can't log in to the game, but can log in to the website, try reinstalling the game as there may be damaged files causing the issue."
+        },
+        {
+            "id": "errorRegister",
+            "question": "Why can't I register?",
+            "answer": "The in-game registering is inconsistent, currently people is expected to register an account using <a href='http://www.boomlings.com/database/accounts/register.php'>this boomlings page</a>. <hr> To create a new profile, you must use a previously unused email address that is whitelisted for registering. It's best to use an email with the @gmail.com domain. <hr> Consider that you can't change the email address associated with your account. If you lose your password, you'll need this email to restore it. Passwords can only contain Latin characters (a to z, with or without capitalization), numbers, hyphens (-), and underscores (_)."
+        },
+        {
+            "id": "changeCredentials",
+            "question": "How do I change my account credentials after registering my account?",
+            "answer": "You can change your username and your password in <a href='http://www.boomlings.com/database/accounts/accountManagement.php'>the boomlings website</a> that can also be found in <i>Manage account</i> at the in-game Account settings. <hr> ・To change your password, use the \"Forgot password?\" feature on the same website. Make sure you have the email address you used to register your account available. <hr> ・You cannot change the email bonded to your gd account, nor will it ever be possible."
+        },
+        {
+            "id": "activationEmail",
+            "question": "Why am I not getting the activation email?",
+            "answer": "・Check the spam folder; the activation email often ends up there. You can also use the <i>Resend Activation</i> option on the Boomlings website. <hr> ・Another reason could be that you may mistyped your email upon registering, and in that case there is nothing you can do but register another account."
+        },
+        {
+            "id": "changeProfileSettings",
+            "question": "How do I change my profile's settings?",
+            "answer": "In the settings of your profile in the main menu, you can adjust the privacy of your account and messaging options in the settings gear. You can also link your social media accounts. To link your YouTube channel, you only need to paste the last 16 digits of the URL instead of the full link. <hr> You can do the same thing for your twitch account, and if you want to link your Twitter account, you only need to write your @username on the text box."
+        },
+        {
+            "id": "deleteProfile",
+            "question": "How do I delete my GD profile?",
+            "answer": "You cannot delete an in-game Geometry Dash profile. Resetting the stats to 0 is the closest you can come to deleting your profile."
+        },
+        {
+            "id": "loadSave",
+            "question": "Why can't I load my data?",
+            "answer": "This for the most part means there's nothing in the cloud to load. But other, less usual instances involve account credentials being outdated in the save file. <hr> ・To fix outdated account credentials, try refreshing your login at Account, More, and clicking Refresh Login. If that doesn't work, restore your account password on <a href='http://www.boomlings.com/database/accounts/lostpassword.php'>the Boomlings website</a>. <hr>・Other reasons could include an IP ban, which can be circumvented using a different VPN, DNS, or connection, or if you downloaded a pirated version of the game."
+        },
+        {
+            "id": "commentsBlocked",
+            "question": "Why can't I see someone's profile or comments?",
+            "answer": "If you see the message <i>Something went wrong</i> while trying to load someone's profile, it's probably because you have been blocked by the user. If you can't view a user's comments, it's because they have disabled their comment history."
+        },
+        {
+            "id": "messagesBlocked",
+            "question": "Why can't I reply to someone's message?",
+            "answer": "If you can't reply to a message, it is because the user has messages disabled or have set them to Friends only"
+        },
+        {
+            "id": "chestBug",
+            "question": "What should I do when my chests/quests show waiting times that are greater than what they should be?",
+            "answer": "・Simply restart the game to fix the wrong times. If the problem still occurs, please contact an <e>Elder Moderator.</e>"
+        },
+        {
+            "id": "registeredUsers",
+            "question": "What is the difference between green and golden names?",
+            "answer": "Users with green names are unregistered users. They can't comment or upload levels, but they can still play levels. <hr> Users with yellow/golden names are registered users; they have all the options the game has to offer. "
+        },
+        {
+            "id": "greenName",
+            "question": "Why is a green user taking the name I want to use?",
+            "answer": "This is a visual error, some accounts appear as green when you search them up. Said accounts are indeed registered, so you won't be able to take their names."
+        },
+        {
+            "id": "takeOutName",
+            "question": " Can I take a username from an account that is inactive?",
+            "answer": "You won't be able to take that name. It's not possible to take a used name by default, and while <y>RobTop</y> can change it himself, he avoids doing it and only reserves it for <m>Moderators</m>, as they need to be easier to find in-game. Changing names is a hard task that cannot be done for everyone unfortunately. "
+        },
+        {
+            "id": "passwordExploit",
+            "question": "Can a hacker get someone's password from the servers?",
+            "answer": "No. The only known password exploits have already been patched, and date back to 2017. Since this patch, it has been impossible for someone to get your password from the GD servers as the servers no longer store a usable form of your password. If you suspect that someone knows your password, the easiest thing you can do is change that password at <a href='http://www.boomlings.com/database/accounts/accountManagement.php'>this website</a>"
+        },
+        {
+            "id": "starLoss",
+            "question": "Why do I sometimes lose stars after loading?",
+            "answer": "RobTop has an anticheat system that removes levels from the savefile if they have an unreasonable number of attempts or jumps. Insane and Demon levels need to be completed in more than 10 attempts or 50 jumps. If you complete an Insane or Demon level below these requirements, the game will remove your completion, causing you to lose percentage and stars. This is why you might see levels with all the orbs obtained but less than 100% percentage or map pack rewards being shown as collected when the completion bar is less than 3/3."
+        },
+        {
+            "id": "lostData",
+            "question": "Can you help me recover my lost data?",
+            "answer": "Lost data can not be recovered sadly, therefore you can not get it back. Lost data can only be prevented; save your data to the cloud often and if you are on PC, you can choose to backup your .dat files manually."
+        },
+        {
+            "id": "invisiblePassword",
+            "question": "Why is nothing happening when I try to insert my password?",
+            "answer": "Remove any texture packs installed. Some texture packs remove the password field texture, making it look empty even though you've typed something. If the password doesn't fit, make it shorter since the game has a maximum limit of 20 characters. The Boomlings website allows for longer passwords than what is supported in-game."
+        },
+        {
+            "id": "overrideData",
+            "question": "Does loading data overwrite my current save?",
+            "answer": "If you have data before loading, nothing will be overwritten, loading will merge both savefiles."
+        },
+        {
+            "id": "timedChests",
+            "question": "Why can't I open timed chests?",
+            "answer": "<b>There are typically three causes for this problem.</b> <hr>・Make sure your login information is up-to-date in your local data. If you changed your username or password, you can fix it by using the <i>Refresh login</i> option in the game's settings section. If that doesn't work, you'll have to reset your login information. <hr> ・If you can't connect to Geometry Dash servers, it could be due to your internet connection being banned. To fix this, you can try using a VPN or a different connection to bypass the ban. <hr> ・The third one involves a bug that you, unfortunately, can't fix. This bug is inherently server based. You can tell if you have this bug if your timed chests aren't able to be opened, but their respective timers for those chests have reset and remain locked."
+        },
+        {
+            "id": "noKeys",
+            "question": "I am not getting demon keys anymore, what's going on?",
+            "answer": "This is a game visual glitch, demon keys are obtained every 500 orbs gathered from levels. If you don't seem to get any, simply restart the game and take a look at the treasure room; you'll see your missing keys added to the counter."
+        },
+        {
+            "id": "treasureChestLock",
+            "question": "Why can't I open the chests in the treasure room?",
+            "answer": "This is a bug in the game where the last page shows 248/248 chests, even if you have not opened all of them yet. Despite having keys, you won't be able to open any more chests. You can use tools to fix this issue, but it is not recommended to reset your account progress to undo the bug."
+        },
+        {
+            "id": "monsterSoftlock",
+            "question": "The monster has been softlocked. Can you help me fix this issue?",
+            "answer": "・You can fully free the monster by re-completing the event as a whole by resseting the game data. <hr>・Reinstall the game without logging in to your account to avoid transferring the problem to your progress. Unlock the monster again by meeting the requirements and opening the cage. Then, log into your account and load your data to merge the progress with the unlocked monster. Save your progress to the cloud to keep the changes."
+        },
+        {
+            "id": "claimBug",
+            "question": "I have completed a quest but why can't I claim the reward?",
+            "answer": "This is a visual error that can be solved by meeting a further requirement of the quest. For example, if the game asked you for 6 coins, you should get more than that so the game rewards you anyway eventually."
+        },
+        {
+            "id": "transferData",
+            "question": "How do I transfer data from one device to another? How do I transfer data from one account to another?",
+            "answer": "Use the <i>Save</i> option in the settings of the device with the data you want to transfer. Then, log in to the receiving device using the same account and use the <i>Load</i> function.<hr> To transfer data from one account to another, you need to use third-party tools as there is no built-in method to do so. However, please note that cloning accounts is prohibited on the leaderboard and can lead to a ban in it."
+        }
+    ]
+}

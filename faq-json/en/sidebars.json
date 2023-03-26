@@ -1,0 +1,77 @@
+{
+    "title": "Editar",
+    "exam": [
+        {
+            "emote":"editor/copy.png",
+            "id":"copy",
+            "question":"Copy",
+            "answer":"<b>Copies a set of selected objects.</b> <hr>The copied objects retain their properties, including layer, channel ID, and group ID. There is no limit to the number of objects that can be copied, but only one set of objects can be stored at a time. Storing a new set of objects will overwrite the previous one."
+        },
+        {
+            "emote":"editor/paste.png",
+            "id":"paste",
+            "question":"Paste",
+            "answer":"<b>Pastes the previously copied set of objects.</b> <hr> The objects will be placed at the center of the screen. Using this option won't erase the set of objects from the memory, meaning they can be pasted more than once. Pasted previously copied objects preserve their properties, such as channel IDs, layer, Group ID, among others."
+        },
+        {
+            "emote":"editor/copyPaste.png",
+            "id":"copyPaste",
+            "question":"Copy + Paste",
+            "answer":"<b>Performs both Copy and Paste simultaneously.</b> <hr> The cloned objects will be placed where the original objects were and will have the same properties, such as channel ID, layer, and group ID. This tool does not store the copied objects in memory, so they cannot be cloned again using the Paste tool."
+        },
+        {
+            "emote":"editor/editSpecial.png",
+            "id":"editSpecial",
+            "question":"Edit Special",
+            "answer":"<b>An exclusive setting to customise objects that may have unique behaviours.</b><hr>This tab offers exclusive options to said objects, which may customise the way they behave. The objects that can use this tab are the orbs, the collectibles, the count object and the saws."
+        },
+        {
+            "emote":"editor/editGroup.png",
+            "id":"editGroup",
+            "question":"Edit Group",
+            "answer":"<b>Allows for objects to be assigned groups, along with many other properties such as Layers.</b><hr>• <b>\"Editor L\"</b> and <b>\"Editor L 2\"</b> stand for Editor layer, and determines how the creator interacts the objects in the editor. By default, all objects are set to zero, unless these values are changed, or the object is placed directly in a layer in editor mode. The game offers two assignment of layers, meaning that a single object can be in up to 3 layers, including the layer \"All\". <center><img class='transparentBox' src='/public/assets/editor/editorL12.png'></center> <hr>• <b>\"Z order\"</b> is the position of an object, which is determined by its Z layer setting found in the bottom zone of the menu. Objects with higher Z values will be displayed above those with lower values. If multiple objects are in the same Z layer and Z order, their positions may appear inconsistent. Z order can be set as a negative value. <center><img class='transparentBox' src='/public/assets/editor/zOrder.png'></center> <hr>• <b>\"Add Group ID\"</b> allows objects to be assigned an ID for bonding with triggers. Triggers use Group ID as targets, commanding different actions depending on the trigger. To bond an object with a trigger, the Group ID must be set here, and it will be assigned as a target in the Trigger's \"Edit object\" menu. <b>\"Next free\"</b> assigns the next available Group ID. There is no limit to the number of Group IDs an object can have, but adding too many may cause the box to not display all of them.<center><img class='transparentBox' src='/public/assets/editor/groupIDs.png'></center> <hr>• <b>\"Z layer\"</b> determines the order of display when objects overlap. The options are Bottom 4, Bottom 3, Bottom 2, Bottom 1, Top 1, Top 2, and Top 3. Objects in bottom layers will be displayed below the player, while objects in top layers will be displayed above the player. When objects have the same Z layer, their positions can be assigned using Z order. <b>\"Default\"</b> sets the Z layer to the value initially set when the object was placed. <center><img class='transparentBox' src='/public/assets/editor/zLayer.png'></center> <hr> • <b>\"Don't fade\"</b> removes the fade in and out from the screen of the objects that have it, which is for the most part, objects that have no collision. <hr> • <b>\"Dont Enter\"</b> removes the custom enter animations the objects have when an enter trigger is used. <hr>• <b>\"Group parent\"</b> designates an object as the center of a set of objects. The object set as the Group Parent will be at the center of the group, so when multiple objects are rotated, their rotation will revolve around the Group Parent. This function does not work if multiple Group Parent objects are selected. <hr> • <b>\"Smooth Ease\"</b> modifies how teleport portals behave. By default, the camera teleports with the player when using teleport portals. Turning on this option will cause the camera to move smoothly to the player's new position using an ease animation instead. <hr> • <b>\"High Detail\"</b> assigns an object as a removable object when \"Low detail mode\" is enabled previous to playing a level."
+        },
+        {
+            "emote":"editor/editObject.png",
+            "id":"editObject",
+            "question":"Edit Object",
+            "answer":"<b>Opens interactive menus for those objects that support it.</b> <hr>The menus include the Channel menu, The trigger menu and exclusive menus for specific objects. To view information about the Triggers usage, go (here)[ ]<hr> • <b>\"Base\"</b> in the Channel menu is used to assign a color to the base of objects that support it. This serves as a way to split the assignable colors for objects that can hold two colors, and there is no standard as to what is considered the \"base\". <center><img class='transparentBox' src='/public/assets/editor/base.png'></center> <hr> • <b>\"Detail\"</b> in the Channel menu is the secondary assignable color for objects that support it. Some objects don't have a Base, but they have a Detail. <center><img class='transparentBox' src='/public/assets/editor/detail.png'></center> <hr> • <b>\"Copy and Paste\"</b> in the Channel menu are tools that allow for quickly applying a color to an object by pasting from a previously copied color. <center><img class='transparentBox' src='/public/assets/editor/copyPaste.png'></center> <hr> • <b>\"HSV\"</b> in the Channel menu contain settings that can change the specific colors of an object. Having selected multiple objects with different values will display the values as default, but it is only visual. <br> <br> — <c>HUE</c> is the position of a color on the color wheel, measured in degrees. Setting a HUE of 30 means the new color will be located 30 degrees clockwise from the old color. For example, pulsing red at 180 HUE will result in light blue, which is the position 180 degrees clockwise from red. Negative values can also be used, with -180 HUE being equivalent to 180 HUE. <br> <center><img class='transparentBox' src='/public/assets/editor/hue.png'></center> <br> — <c>Saturation</c> refers to the intensity of color in a target, with 0 saturation being white and 1.0 saturation being the strongest perceivable color. The slide bar works multiplicatively, meaning the degree of saturation (or desaturation, if negative) depends on the original saturation of the color. It is also possible to switch to additive mode, where the degree of change can be ranged from -1 to 1. <br> <center><img class='transparentBox' src='/public/assets/editor/saturation.png'></center> <br> — <c>Brightness</c> refers to the darkness or lightness of a color. Higher brightness means less darkness, while 0 brightness indicates complete black. The slide bar works multiplicatively, which means that the degree of change depends on the original brightness of the color. This can also be changed to additive mode. <br> <center><img class='transparentBox' src='/public/assets/editor/brightness.png'></center> <br> <hr> • <b>\"Player color 1\"</b> in the Channel menu copies the main color of the player as a channel, while <b>\"Player color 2\"</b> uses the player's secondary color. <b>\"Light Background\"</b> copies the background color and applies an additive blending effect. <b>\"Default\"</b> sets the channel to the standard ID for the object. <center><img class='transparentBox' src='/public/assets/editor/upSectionEditObject.png'></center> <hr> • Channel menu's IDs represent channels and each can hold a color. The channel ID of an object cannot be changed during a level, but its color can be changed using the Color trigger. This menu displays 10 channels, but more can be shown by clicking \"browse\". The color wheel can be accessed by clicking the color box to change the color of the selected channel. <b>\"Next free\"</b> automatically selects next available channel ID. <center><img class='transparentBox' src='/public/assets/editor/colors.png'></center> <hr> • <b>\"Glow\"</b> option in the Channel menu turns off the glow effect that some objects have, typically solid objects.<center><img class='transparentBox' src='/public/assets/editor/glow.png'></center>"
+        },
+        {
+            "emote":"editor/copyValues.png",
+            "id":"copyValues",
+            "question":"Copy Values",
+            "answer":"<b>Copies the properties of an object.</b> <hr> Object properties includes it's Group ID, it's Channel ID, Editor layer, Z layer, Z position, HSV, \"Don't enter\" and \"Dont fade\". These values can be pasted in any other objects as long as the target supports them."
+        },
+        {
+            "emote":"editor/pasteState.png",
+            "id":"pasteState",
+            "question":"Paste State",
+            "answer":"<b>Applies some properties previously copied using the tool \"Copy values\".</b> <hr> These properties include Editor Layer, Editor Layer 2, Z order, Group ID, Z layer, \"Don't fade\" and \"Don't enter\"."
+        },
+        {
+            "emote":"editor/pasteColor.png",
+            "id":"pasteColor",
+            "question":"Paste Color",
+            "answer":"<b>Applies some properties previously copied using the tool \"Copy values\".</b> <hr> These properties include Channel ID for base, Channel ID for Detail and HSV."
+        },
+        {
+            "emote":"editor/hsvBars.png",
+            "id":"hsvBars",
+            "question":"HSV Bars",
+            "answer":"<b>Opens a side tab for real-time color changing of channels.</b> <hr> The bars represent HUE, Saturation, Brightness, and Opacity. Objects that can hold multiple color channels will display two buttons beside the bars to allow creators to change one of the two selected channels."
+        },
+        {
+            "emote":"editor/goToLayer.png",
+            "id":"goToLayer",
+            "question":"Go to layer",
+            "answer":"<b>Automatically assigns the editor layer to match the selected object.</b> <hr> For those objects that have two different layers assigned, this option will alternate each layer through each click. It does not work when there are multiple objects with different layers selected."
+        },
+        {
+            "emote":"editor/deselect.png",
+            "id":"deselect",
+            "question":"Deselect",
+            "answer":"<b>De-select currently selected objects.</b> "
+        }
+    ]
+}

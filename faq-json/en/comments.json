@@ -1,0 +1,50 @@
+{
+    "title":"Comments: FAQ", 
+    "exam":[
+        {
+            "id":"commentRules",
+            "question":"What are the comment rules?",
+            "answer":"Comment rules exist in Geometry Dash to promote good behavior. They act as simple guidelines to stop users of posting inappropriate or spammy messages. Breaking the comment rules can result in a timeout or ban.<br><b>The comment rules are as follows:</b><hr>・<c>Flaming</c>: Do not write hostile of insulting messages aimed at other users.<hr>・<c>Spamming</c>: Do not spam requests from others to play your levels.<hr>・<c>Profanity</c>: No swearing or crude language."
+        },
+        {
+            "id":"commentRulesSimplicity",
+            "question":"Why are the comment rules so simple?",
+            "answer":"Back when RobTop created the comment rules, they were not given much importance as comment sections were not as popular as they are now. The simple comment rules were enough for the general community at that time. However, there will be an update to the comment rules in the next update."
+        },
+        {
+            "id":"commentRulesUseless",
+            "question":"Why is the comment help useless?",
+            "answer":"The comment section was not intended to be a chat room, so it was not a priority during development. Currently, the comment section is useless until the next update."
+        },
+        {
+            "id":"reportComments",
+            "question":"How can I report people for breaking comment rules?",
+            "answer":"The only way to report is contacting with an elder moderator with the right information about the situation."
+        },
+        {
+            "id":"permabans",
+            "question":"What are permabans?",
+            "answer":"Permabans are bans that last either forever or long enough to be considered so. These are for habitual offenders, ban evaders, and severe offenders. The in-game ban timer currently only goes up to 34 days and 22 hours; bans of this demonstrated length are generally much longer than the time shown and are most likely permanent."
+        },
+        {
+            "id":"appealComment",
+            "question":"I have been comment banned, can I appeal it?",
+            "answer":"In general, comment bans are not removed when they're justified. If you believe it was a mistake, talk to an <e>Elder Moderator<e>."
+        },
+        {
+            "id":"reappearDeletion",
+            "question":"Why does the comment I delete reappear?",
+            "answer":"This is because the level you originally commented on is no longer available on the server. There is not a way to delete these comments for the time being."
+        },
+        {
+            "id":"commentsCrash",
+            "question":"Why does my game crash when I open the comments section?",
+            "answer":"This happens when you have parental controls enabled. This feature is incomplete, causing the game to not work when you try to open the comment section. It will be fixed in the next update."
+        },
+        {
+            "id":"insecurePassword",
+            "question":"The game keeps claiming my password is insecure even though I've tried changing it a bunch of times, what is going on?",
+            "answer":"The game considers the passwords you've changed to be insecure. To create a stronger password, use a dash (-) somewhere in it and avoid common words and short passwords as they can be easily guessed. Use passwords that are at least 9 characters long. Don't forget to log out and log back in every time you change your account credentials."
+        }
+    ] 
+}

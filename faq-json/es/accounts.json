@@ -1,0 +1,139 @@
+{
+    "title": "Cuentas: FAQ",
+    "exam": [
+        {
+            "emote": "folder.png",
+            "id": "cloudSave",
+            "question": "¿Por qué no puedo almacenar mis datos en la nube?",
+            "answer": "・Geometry Dash tiene problemas almacenando tus datos si ocupas demasiado espacio total en los niveles del editor; Te sugerimos que elimines algunos de estos, preferiblemente esos que tienen demasiados objetos ya que estos son los que más consumen espacio. <hr>・El error -5 indica que tu progreso local tiene credenciales de cuenta inválidos. Esto causa que el juego bloquee tu acceso a los servidores. Para resolverlo, en el juego ve a <i>Account</i>, luego <i>More</i>, y luego <i>Refresh Login</i>, en esta sección trata de acceder a tu cuenta. Refresh login no resulta en una pérdida de datos. <hr>・Si Refresh login te enseña un error, trata de restaurar tu contraseña en <a href='http://www.boomlings.com/database/accounts/lostpassword.php'>la página de Boomlings.</a>"
+        },
+        {
+            "emote": "cantAccess.png",
+            "id": "errorLogin",
+            "question": "¿Por qué no puedo acceder a mi cuenta?",
+            "answer": "Si introduces una contraseña incorrecta, no podrás acceder a tu cuenta. En caso de olvidarla o creer que alguien la cambió, puedes restaurarla en <a href='http://www.boomlings.com/database/accounts/lostpassword.php'>la página web del juego</a>. Para ello, necesitas proporcionar la dirección de correo electrónico asociada a tu cuenta. Si no recuerdas la dirección de correo electrónico o no tienes acceso a ella, no podrás recuperar tu cuenta. <hr> Para saber a qué cuenta está vinculado un correo electrónico, solo ingresa el correo en esta <a href='http://www.boomlings.com/database/accounts/lostusername.php'>sección de la página</a> y recibirás un correo con el nombre de la cuenta correspondiente. <hr> Si tienes problemas para acceder a tu cuenta en el juego, pero puedes hacerlo en el sitio, intenta reinstalarlo, ya que puede ser un problema de archivos corruptos."
+        },
+        {
+            "id": "errorRegister",
+            "question": "¿Por qué no me puedo registrar?",
+            "answer": "El sistema de registro implementado dentro del juego es inconsistente, tendrás que registrarte en <a href='http://www.boomlings.com/database/accounts/register.php'>el sitio de Boomlings</a>. <hr> Tienes que usar una dirección de correo que no se haya usado para registrar otra cuenta, y asegúrate de que el dominio del correo esté permitido para el registro, como @gmail.com. <hr> Asegúrate de tener acceso al correo electrónico registrado en tu cuenta en caso de necesitar restablecer la contraseña, ya que no es posible cambiarlo. Las contraseñas del perfil solo pueden contener letras latinas, números, guiones y guiones bajos."
+        },
+        {
+            "id": "changeCredentials",
+            "question": "¿Como puedo cambiar las credenciales de mi cuenta?",
+            "answer": "El nombre de usuario y la contraseña se pueden cambiar en la pagina de boomlings</a> que se puede acceder a traves del botón <i>Manage Account</i> dentro del juego. <hr> ・La contraseña se puede cambiar al usar <i>Forgot password?</i> que se encuentra dentro del mismo sitio, pero necesitaras tener a mano el email que usaste para registrar tu cuenta.<hr>・No es posible cambiar el correo conectado a tu cuenta de Geometry dash."
+        },
+        {
+            "id": "activationEmail",
+            "question": "¿Por qué no estoy recibiendo mi correo de activación?",
+            "answer": "・Si no recibiste el correo de activación, revisa tu carpeta de spam o utiliza la opción \"Resend activation\" en la página de Boomlings. <hr> ・Si ingresaste incorrectamente tu correo electrónico al registrarte, tendrás que crear una nueva cuenta."
+        },
+        {
+            "id": "changeProfileSettings",
+            "question": "¿Cómo cambio los ajustes de mi cuenta?",
+            "answer": "En la configuración de tu perfil en el menú principal, puedes ajustar la privacidad de tu cuenta y las opciones de mensajería en el engranaje de configuración. También puedes vincular tus redes sociales. Para vincular tu canal de YouTube, solo necesitas pegar los últimos 16 dígitos de la URL en lugar del enlace completo. <hr> Si quieres vincular tu cuenta de Twitch, debes hacer lo mismo, evita pegar el enlace entero y para vincular tu cuenta de Twitter solo debes escribir tu @username."
+        },
+        {
+            "id": "deleteProfile",
+            "question": "¿Cómo elimino mi perfil de GD?",
+            "answer": "No es posible eliminar un perfil de GD, eliminar todas las estadísticas es lo más cercano que puedes tener a ello."
+        },
+        {
+            "id": "loadSave",
+            "question": "¿Por qué el juego no me deja cargar los datos al usar la opción de \"Load\"?",
+            "answer": "Esto suele suceder cuando no hay nada que cargar. En casos menos frecuentes, puede deberse a información de perfil inválida en tus archivos locales, lo que puede bloquear todas las acciones relacionadas con tu cuenta, incluida la opción de <i>Load.</i> <hr> ・Si deseas cambiar la información que está almacenada localmente en tus archivos, ve a <i>Account</i> y luego a <i>More</i>. Haz clic en <i>Refresh login</i> y vuelve a ingresar la información de tu cuenta. Si esto produce un error, recupera tu contraseña utilizando el sitio web del juego que se encuentra en <i>Manage account</i>.<hr>・Otras causas pueden ser un ban de IP que se puede evitar con un VPN, DNS o conexión diferente, o si descargaste una versión pirata del juego.</u> "
+        },
+        {
+            "id": "commentsBlocked",
+            "question": "¿Por qué no puedo ver el perfil o la sección de comentarios de otra persona?",
+            "answer": "Cuando tratas de cargar un perfil, y el mensaje <i>Something went wrong</i> aparece, es probablemente porque esta persona te bloqueó. Si no puedes ver los comentarios de un perfil, es porque esta persona desabilito la visibilidad pública. "
+        },
+        {
+            "id": "messagesBlocked",
+            "question": "¿Por qué no puedo reponder el mensaje de una persona?",
+            "answer": "Esto sucede cuando la otra persona ha desactivado los mensajes directos en el juego o los ha limitado solo para amigos."
+        },
+        {
+            "emote": "time.png",
+            "id": "chestBug",
+            "question": "Mis cofres y mis quests enseñan tiempos de espera exagerados, ¿Qué puedo hacer?",
+            "answer": "・Simplemente reinicia el juego para resolver este error visual. Si el problema persiste, contacta a un <e>moderador elder</e>."
+        },
+        {
+            "id": "registeredUsers",
+            "question": "¿Cual es la diferencia entre cuentas con nombre verde con esas cuentas de nombre dorado?",
+            "answer": "Las cuentas con nombre verde son de jugadores no registrados que pueden jugar niveles pero no pueden subir de nivel ni comentar. <hr> Las cuentas con nombre dorado son de jugadores registrados que tienen acceso a todas las opciones del juego."
+        },
+        {
+            "id": "greenName",
+            "question": "¿Por qué hay una cuenta verde usando el nombre que quiero?",
+            "answer": "Esto es un error visual, algunos perfiles aparecen de forma no registrada cuando los buscas. Estos perfiles están registrados dentro del servidor, asi que no podras tomar esos nombres."
+        },
+        {
+            "id": "takeOutName",
+            "question": "¿Puedo usar un nombre de usuario de una cuenta inactiva?",
+            "answer": "No puedes tomar nombres de otras cuentas. RobTop puede cambiar nombres, pero es preferible dejarlo para los moderadores, ya que necesitan ser fácilmente identificables en el juego. El cambio de nombres es una tarea difícil que no es posible para todos."
+        },
+        {
+            "id": "passwordExploit",
+            "question": "¿Puede un hacker averiguar la contraseña de una cuenta desde el servidor?",
+            "answer": "No. Las vulnerabilidades del servidor han sido resueltas, datan desde 2017. Desde entonces, ha sido imposible averiguar la contraseña de alguna cuenta desde el servidor de GD ya que este no usa una forma de contraseña que se pueda almacénar. Si crees que alguien sabe tu contraseña, cambiala en <a href='http://www.boomlings.com/database/accounts/accountManagement.php'>la página de Boomlings</a>."
+        },
+        {
+            "id": "starLoss",
+            "question": "¿Por que se me revocaron estrellas al cargar?",
+            "answer": "RobTop ha implementado métodos para detectar y combatir a los jugadores que utilizan trucos para obtener estadísticas. Uno de estos métodos consiste en controlar los niveles \"Insane\" y \"Demons\". Si se completan en menos de 10 intentos o 50 saltos, el juego quitará las estrellas obtenidas y restablecerá el porcentaje. Por esta razón, es posible obtener todos los orbes de un nivel sin completarlo o que un Map Pack aparezca como completado cuando sus tres niveles no lo están."
+        },
+        {
+            "id": "lostData",
+            "question": "¿Me puedes ayudar a recuperar mi progreso eliminado?",
+            "answer": "Progreso que se pierde, por desgracia, no puede ser recuperado. Tienes que prevenir pérdida de datos masiva al respaldar tu cuenta en la nube de vez en cuando, y si estás en PC, puedes elegir hacer un respaldo manual de los archivos .dat."
+        },
+        {
+            "id": "invisiblePassword",
+            "question": "¿Por qué no ocurre nada cuando trato de insertar mi contraseña?",
+            "answer": "Si no puedes ver lo que estás escribiendo al ingresar tu contraseña, puede ser porque algunos texture packs no incluyen el símbolo • en las texturas. Para solucionarlo, puedes cambiar la calidad de las texturas o simplemente ingresar la contraseña de todos modos. Si el problema es que la contraseña no encaja completamente en el juego, cámbiala en el sitio de Boomlings, ya que el sitio permite contraseñas más largas que el juego, que solo admite contraseñas de hasta 20 caracteres."
+        },
+        {
+            "id": "overrideData",
+            "question": "¿Si cargo mis datos de la nube, puede que mi progreso sea reemplazado?",
+            "answer": "Si tienes progreso antes de cargar, entonces los dos datos se mezclarán; no se perderá nada."
+        },
+        {
+            "emote": "dailyChest.png",
+            "id": "timedChests",
+            "question": "¿Por qué no puedo abrir mis cofres temporizados?",
+            "answer": "<b>Hay tres razones que pueden causar este problema.</b> <hr>・Para recibir cofres en el juego, es necesario tener la información de inicio de sesión actualizada en tus datos locales. Si has cambiado tu nombre de usuario o contraseña, puedes solucionarlo haciendo un Refresh login en la sección de configuración del juego. Si esto no funciona, deberás restablecer tu información de inicio de sesión.<hr> ・Otra causa de este problema son los bans de IP. Este ban no te permite cargar nada que tenga que ver con el servidor, incluido los cofres. Tendrás que usar un VPN u otra conexión a internet para anularlo. <hr>・Si no recibes la recompensa de tus cofres y el tiempo de desbloqueo se reinicia, es posible que tengas un error en el servidor. En este caso, solo RobTop puede ayudarte, pero es difícil contactarlo."
+        },
+        {
+            "emote": "bigKey.png",
+            "id": "noKeys",
+            "question": "¿Por qué ya no recibo llaves grises?",
+            "answer": "Es sólo un error visual, las llaves se obtienen cada 500 orbes. Si te parece que no estás consiguiendo nada, reinicia el juego y mira el treasure room; tus llaves estarán en el contador."
+        },
+        {
+            "emote": "treasureChest.png",
+            "id": "treasureChestLock",
+            "question": "No puedo abrir cofres de la sala de tesoros.",
+            "answer": "Es un error en donde te faltan por abrir cofres aunque el conteo de cofres esté en 248/248. No se puede resolver sin modificaciones externas, o reiniciar la cuenta por completo, aunque esto obviamente no te lo sugerimos."
+        },
+        {
+            "emote": "secretLock.png",
+            "id": "monsterSoftlock",
+            "question": "No puedo hacer nada en la sección del monstruo. ¿Qué puedo hacer?",
+            "answer": "・Puedes liberar completamente al monstruo volviendo a completar el evento en su totalidad reiniciando los datos del juego. <hr> ・Desinstala y reinstala el juego sin iniciar sesión en tu cuenta. Después, desbloquea el monstruo y luego inicia sesión en tu cuenta para combinar el progreso con el monstruo desbloqueado. Asegúrate de guardar los cambios en la nube."
+        },
+        {
+            "emote": "diamond.png",
+            "id": "claimBug",
+            "question": "Completé un desafio, pero ¿por qué no lo puedo reclamar?",
+            "answer": "Este es un error visual que se puede solucionar cumpliendo con un requisito adicional de la misión. Por ejemplo, si el juego te pide 6 monedas, debes conseguir más de eso para que el juego te recompense de todos modos eventualmente."
+        },
+        {
+            "emote": "recentIcon.png",
+            "id": "transferData",
+            "question": "¿Cómo transfiero datos de un dispositivo a otro? ¿Cómo transfiero datos de una cuenta a otra?",
+            "answer": "Usa la opción <i>Save</i> que se encuentra en la configuración en el dispositivo donde tienes los datos que deseas transferir. Luego, inicia sesión con la misma cuenta en tu otro dispositivo y utiliza la función <i>Load</i>. <hr>Para transferir datos de una cuenta a otra, necesitarás descargar herramientas externas que te permitan mantener tus datos al cerrar sesión, ya que no hay una opción integrada para hacerlo. Sin embargo, ten en cuenta que clonar cuentas está prohibido en la tabla de clasificación."
+        }
+    ]
+}
